@@ -1,9 +1,9 @@
-# EESchema Netlist Version 1.1 created  2/28/2014 9:06:54 PM
+# EESchema Netlist Version 1.1 created  2/28/2014 10:03:22 PM
 (
  ( /52FC4818 $noname  Y1 RESONATORSMD {Lib=RESONATORSMD}
-  (    1 N-000051 )
+  (    1 N-000031 )
   (    2 GND )
-  (    3 N-000052 )
+  (    3 N-000032 )
  )
  ( /52FC481B AVR-ISP-6  CON1 AVR-ISP-6 {Lib=AVR-ISP-6}
   (    1 MISO )
@@ -120,12 +120,12 @@
   (    2 PE6 )
  )
  ( /52FC565C $noname  J2 RJ45 {Lib=RJ45}
-  (    1 N-000061 )
-  (    2 N-000062 )
-  (    3 N-000059 )
+  (    1 N-000066 )
+  (    2 N-000060 )
+  (    3 N-000064 )
   (    4 RAW )
   (    5 RAW )
-  (    6 N-000060 )
+  (    6 N-000065 )
   (    7 GND )
   (    8 GND )
   (    9 ? )
@@ -135,14 +135,14 @@
   (    2 RX )
   (    3 TX )
   (    4 GND )
-  (    5 N-000059 )
-  (    6 N-000060 )
-  (    7 N-000062 )
-  (    8 N-000061 )
+  (    5 N-000064 )
+  (    6 N-000065 )
+  (    7 N-000060 )
+  (    8 N-000066 )
  )
  ( /52FC5668 $noname  R12 100 {Lib=R}
-  (    1 N-000061 )
-  (    2 N-000062 )
+  (    1 N-000066 )
+  (    2 N-000060 )
  )
  ( /5306763E $noname  CH1 CONN_4 {Lib=CONN_4}
   (    1 GND )
@@ -153,7 +153,7 @@
  ( /53067684 $noname  P2 CH2 {Lib=CONN_4}
   (    1 GND )
   (    2 +5V )
-  (    3 PD7 )
+  (    3 PC7 )
   (    4 PF1 )
  )
  ( /5306768A $noname  P3 CH3 {Lib=CONN_4}
@@ -215,18 +215,18 @@
   (    2 +5V )
   (    3 ? )
   (    4 GND )
-  (    5 N-000046 )
+  (    5 N-000033 )
   (    6 4.096 )
   (    7 ? )
   (    8 ? )
  )
  ( /530ECE58 $noname  C5 1u {Lib=C}
-  (    1 N-000046 )
+  (    1 N-000033 )
   (    2 GND )
  )
  ( /530ED113 $noname  J1 Aref_Jumper {Lib=CONN_3}
   (    1 4.096 )
-  (    2 N-000049 )
+  (    2 N-000054 )
   (    3 AREF )
  )
  ( /530ED4A1 $noname  P9 PWR {Lib=CONN_2}
@@ -239,7 +239,7 @@
  )
  ( /530EDA61 $noname  R8 1k {Lib=R}
   (    1 TXLED )
-  (    2 N-000038 )
+  (    2 N-000029 )
  )
  ( /52FC4878 TQFP44  IC1 ATMEGA32U4 {Lib=ATMEGA32U4}
   (    1 PE6 )
@@ -257,8 +257,8 @@
   (   13 reset )
   (   14 +5V )
   (   15 GND )
-  (   16 N-000051 )
-  (   17 N-000052 )
+  (   16 N-000031 )
+  (   17 N-000032 )
   (   18 SCL )
   (   19 SCA )
   (   20 RX )
@@ -266,7 +266,7 @@
   (   22 TXLED )
   (   23 GND )
   (   24 +5V )
-  (   25 PD4 )
+  (   25 ? )
   (   26 PD6 )
   (   27 PD7 )
   (   28 PB4 )
@@ -283,35 +283,29 @@
   (   39 PF4 )
   (   40 PF1 )
   (   41 PF0 )
-  (   42 N-000049 )
+  (   42 N-000054 )
   (   43 GND )
   (   44 +5V )
  )
  ( /530EDC2F $noname  D2 TX {Lib=LED}
-  (    1 N-000038 )
+  (    1 N-000029 )
   (    2 GND )
  )
  ( /530EDE03 $noname  D3 RX {Lib=LED}
-  (    1 N-000029 )
+  (    1 N-000030 )
   (    2 GND )
  )
  ( /530EDE0F $noname  R9 1k {Lib=R}
   (    1 RXLED )
-  (    2 N-000029 )
+  (    2 N-000030 )
  )
  ( /530EE96E $noname  R11 1k {Lib=R}
   (    1 RSSI )
-  (    2 N-000033 )
+  (    2 N-000036 )
  )
  ( /530EEA78 $noname  D4 RSSI {Lib=LED}
-  (    1 N-000033 )
+  (    1 N-000036 )
   (    2 GND )
- )
- ( /530EF052 $noname  P7 CH7 {Lib=CONN_4}
-  (    1 GND )
-  (    2 +5V )
-  (    3 PC7 )
-  (    4 PD4 )
  )
  ( /53115ECE $noname  P11 SPI {Lib=CONN_4}
   (    1 GND )
@@ -492,224 +486,221 @@ $endlist
 $endfootprintlist
 }
 { Pin List by Nets
-Net 1 "SCL" "SCL"
+Net 1 "SCA" "SCA"
+ IC1 19
+ P8 4
+Net 2 "PC6" "PC6"
+ IC1 31
+ CH1 3
+Net 3 "SCL" "SCL"
  P8 3
  IC1 18
-Net 2 "SCA" "SCA"
- P8 4
- IC1 19
-Net 3 "GND" "GND"
- P6 1
- P10 1
- P0 5
- C5 2
- D2 2
- U5 4
- P7 1
- P4 1
- P3 1
- D4 2
- P5 1
- CH1 1
- C1 2
- J2 8
- J2 7
- P9 1
- P11 1
- IC1 5
- P8 1
- P0 4
- IC1 35
- C2 2
- U1 GND
- C3 2
- U2 10
- S1 2
- S1 1
- C4 2
- U4 4
- D1 2
- Y1 2
- C6 2
- IC1 15
- D3 2
- IC1 23
- P2 1
- U3 2
- IC1 43
- CON1 6
 Net 4 "+5V" "+5V"
+ U3 3
+ U3 1
+ F1 2
+ R14 1
+ R10 1
  R6 1
+ CON1 2
+ CH1 2
+ P3 2
+ P2 2
+ P6 2
+ P4 2
+ R1 1
+ U5 2
  IC1 24
  IC1 14
- IC1 34
- IC1 44
- R1 1
- P7 2
- U5 2
- R4 2
- P5 2
- U4 1
- CON1 2
- F1 2
  C2 1
- P6 2
+ P5 2
  P8 2
- P3 2
- CH1 2
- R10 1
- P2 2
- P4 2
- R14 1
- U3 1
- U3 3
-Net 5 "RAW" "RAW"
- P9 2
- J2 5
- J2 4
- C3 1
- U1 VI
-Net 6 "UVCC" "UVCC"
- P0 1
- U1 VO
- IC1 7
- IC1 2
- F1 1
-Net 7 "PC7" "PC7"
+ R4 2
+ U4 1
+ IC1 44
+ IC1 34
+Net 5 "PC7" "PC7"
+ P2 3
  IC1 32
- P7 3
+Net 6 "GND" "GND"
+ IC1 15
+ C1 2
+ IC1 43
+ IC1 35
+ CON1 6
+ Y1 2
+ P10 1
+ C5 2
+ U2 10
+ C6 2
+ U5 4
+ P9 1
+ IC1 23
+ IC1 5
+ D4 2
+ P0 4
+ P11 1
+ P0 5
+ J2 7
+ J2 8
+ U4 4
+ C4 2
+ C3 2
+ U3 2
+ P8 1
+ U1 GND
+ P5 1
+ P6 1
+ P3 1
+ S1 2
+ S1 1
+ P4 1
+ D3 2
+ C2 2
+ D2 2
+ D1 2
+ P2 1
+ CH1 1
+Net 7 "UVCC" "UVCC"
+ F1 1
+ IC1 7
+ P0 1
+ IC1 2
+ U1 VO
 Net 8 "PF5" "PF5"
  IC1 38
  P4 4
-Net 9 "PF6" "PF6"
- IC1 37
- P5 4
-Net 10 "PB4" "PB4"
- P3 3
- IC1 28
-Net 11 "PB5" "PB5"
- IC1 29
- P4 3
-Net 12 "PB6" "PB6"
- IC1 30
- P5 3
-Net 13 "PC6" "PC6"
- CH1 3
- IC1 31
-Net 14 "PD7" "PD7"
- Q2 D
- R10 2
- IC1 27
- P2 3
-Net 20 "PF4" "PF4"
- IC1 39
- P3 4
-Net 21 "+3.3V" "+3.3V"
- R7 1
- R13 1
- U3 5
- C4 1
- Q1 G
- Q2 G
- Q3 G
- U2 1
- R5 1
-Net 22 "PD6" "PD6"
- Q1 D
- R6 2
- IC1 26
-Net 23 "PF0" "PF0"
- IC1 41
- CH1 4
-Net 24 "SCLK" "SCLK"
- P11 3
- IC1 9
- CON1 3
-Net 25 "MOSI" "MOSI"
- IC1 10
- CON1 4
- P11 4
-Net 26 "PB7" "PB7"
+Net 9 "PB7" "PB7"
  IC1 12
  P6 3
-Net 27 "PF7" "PF7"
+Net 10 "PF7" "PF7"
  P6 4
  IC1 36
-Net 28 "MISO" "MISO"
- CON1 1
+Net 11 "PF4" "PF4"
+ IC1 39
+ P3 4
+Net 12 "PB4" "PB4"
+ IC1 28
+ P3 3
+Net 13 "PB5" "PB5"
+ IC1 29
+ P4 3
+Net 15 "+3.3V" "+3.3V"
+ R5 1
+ Q2 G
+ Q1 G
+ R7 1
+ R13 1
+ C4 1
+ U3 5
+ Q3 G
+ U2 1
+Net 16 "RAW" "RAW"
+ C3 1
+ P9 2
+ J2 4
+ J2 5
+ U1 VI
+Net 17 "PD6" "PD6"
+ R6 2
+ IC1 26
+ Q1 D
+Net 18 "PD7" "PD7"
+ R10 2
+ Q2 D
+ IC1 27
+Net 19 "PE6" "PE6"
+ R14 2
+ Q3 D
+ IC1 1
+Net 20 "PF1" "PF1"
+ IC1 40
+ P2 4
+Net 21 "PB6" "PB6"
+ P5 3
+ IC1 30
+Net 22 "PF6" "PF6"
+ P5 4
+ IC1 37
+Net 23 "MISO" "MISO"
  IC1 11
+ CON1 1
  P11 2
-Net 29 "" ""
- D3 1
- R9 2
-Net 30 "TXLED" "TXLED"
- IC1 22
- R8 1
-Net 31 "RXLED" "RXLED"
- IC1 8
+Net 24 "PF0" "PF0"
+ IC1 41
+ CH1 4
+Net 25 "SCLK" "SCLK"
+ IC1 9
+ CON1 3
+ P11 3
+Net 26 "MOSI" "MOSI"
+ P11 4
+ CON1 4
+ IC1 10
+Net 27 "RXLED" "RXLED"
  R9 1
-Net 32 "RSSI" "RSSI"
- U2 6
- R11 1
-Net 33 "" ""
- D4 1
- R11 2
-Net 38 "" ""
+ IC1 8
+Net 28 "TXLED" "TXLED"
+ R8 1
+ IC1 22
+Net 29 "" ""
  R8 2
  D2 1
-Net 39 "PD4" "PD4"
- IC1 25
- P7 4
-Net 46 "" ""
- U5 5
+Net 30 "" ""
+ D3 1
+ R9 2
+Net 31 "" ""
+ IC1 16
+ Y1 1
+Net 32 "" ""
+ Y1 3
+ IC1 17
+Net 33 "" ""
  C5 1
+ U5 5
+Net 35 "RSSI" "RSSI"
+ R11 1
+ U2 6
+Net 36 "" ""
+ R11 2
+ D4 1
 Net 47 "AREF" "AREF"
  P10 2
  J1 3
-Net 48 "4.096" "4.096"
+Net 52 "4.096" "4.096"
  J1 1
- U5 6
  C6 1
-Net 49 "" ""
- IC1 42
- J1 2
-Net 51 "" ""
- IC1 16
- Y1 1
-Net 52 "" ""
- IC1 17
- Y1 3
+ U5 6
 Net 53 "" ""
  IC1 6
  C1 1
-Net 58 "x9" "x9"
- Q3 S
- R13 2
+Net 54 "" ""
+ J1 2
+ IC1 42
+Net 59 "x9" "x9"
  U2 9
-Net 59 "" ""
- U4 5
- J2 3
+ R13 2
+ Q3 S
 Net 60 "" ""
- J2 6
- U4 6
-Net 61 "" ""
- R12 1
- U4 8
- J2 1
-Net 62 "" ""
- U4 7
  J2 2
  R12 2
-Net 64 "TX" "TX"
- IC1 21
- U4 3
-Net 65 "PE6" "PE6"
- Q3 D
- R14 2
- IC1 1
-Net 66 "RX" "RX"
+ U4 7
+Net 62 "RX" "RX"
  IC1 20
  U4 2
+Net 63 "TX" "TX"
+ U4 3
+ IC1 21
+Net 64 "" ""
+ U4 5
+ J2 3
+Net 65 "" ""
+ J2 6
+ U4 6
+Net 66 "" ""
+ U4 8
+ R12 1
+ J2 1
 Net 67 "" ""
  IC1 3
  R2 2
@@ -720,27 +711,24 @@ Net 69 "reset" "reset"
  S1 3
  CON1 5
  IC1 13
- S1 4
  R1 2
+ S1 4
 Net 70 "" ""
  P0 2
  R2 1
 Net 71 "" ""
- R3 1
  P0 3
-Net 72 "DOUT" "DOUT"
- R5 2
+ R3 1
+Net 72 "DIN" "DIN"
+ U2 3
+ R7 2
+ Q2 S
+Net 73 "DOUT" "DOUT"
  U2 2
  Q1 S
-Net 73 "DIN" "DIN"
- R7 2
- U2 3
- Q2 S
+ R5 2
 Net 74 "" ""
- R4 1
  D1 1
-Net 75 "PF1" "PF1"
- IC1 40
- P2 4
+ R4 1
 }
 #End

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2/28/2014 9:24:45 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2/28/2014 10:09:27 PM
 
 BeginCmp
 TimeStamp = /52FC4828;
@@ -11,21 +11,21 @@ BeginCmp
 TimeStamp = /52FC482D;
 Reference = C2;
 ValeurCmp = CP1;
-IdModule  = SM0402_r;
+IdModule  = SM1206POL_VIS;
 EndCmp
 
 BeginCmp
 TimeStamp = /530EB8F2;
 Reference = C3;
 ValeurCmp = CP1;
-IdModule  = SM0402_r;
+IdModule  = SM1206POL_VIS;
 EndCmp
 
 BeginCmp
 TimeStamp = /530EBD8D;
 Reference = C4;
 ValeurCmp = CP1;
-IdModule  = SM0402_r;
+IdModule  = SM1206POL_VIS;
 EndCmp
 
 BeginCmp
@@ -102,7 +102,7 @@ BeginCmp
 TimeStamp = /530ED113;
 Reference = J1;
 ValeurCmp = Aref_Jumper;
-IdModule  = PINHEAD1-3;
+IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
 BeginCmp
@@ -151,13 +151,6 @@ BeginCmp
 TimeStamp = /5306ABA0;
 Reference = P6;
 ValeurCmp = CH6;
-IdModule  = bornier4;
-EndCmp
-
-BeginCmp
-TimeStamp = /530EF052;
-Reference = P7;
-ValeurCmp = CH7;
 IdModule  = bornier4;
 EndCmp
 
@@ -319,7 +312,7 @@ BeginCmp
 TimeStamp = /530EB8E5;
 Reference = U1;
 ValeurCmp = 7805;
-IdModule  = PINHEAD1-3;
+IdModule  = LM78XXV;
 EndCmp
 
 BeginCmp
