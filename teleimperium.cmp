@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/2/2014 10:28:44 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/2/2014 10:47:04 PM
 
 BeginCmp
 TimeStamp = /52FC4828;
@@ -40,13 +40,6 @@ TimeStamp = /530ECE43;
 Reference = C6;
 ValeurCmp = 1u;
 IdModule  = SM0603_Capa_VIS;
-EndCmp
-
-BeginCmp
-TimeStamp = /5306763E;
-Reference = CH1;
-ValeurCmp = CONN_4;
-IdModule  = bornier4;
 EndCmp
 
 BeginCmp
@@ -131,6 +124,13 @@ TimeStamp = /52FC4824;
 Reference = P0;
 ValeurCmp = USBMICRO;
 IdModule  = USB-MICRO-B;
+EndCmp
+
+BeginCmp
+TimeStamp = /5306763E;
+Reference = P1;
+ValeurCmp = CH1;
+IdModule  = bornier4;
 EndCmp
 
 BeginCmp

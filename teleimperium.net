@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  3/2/2014 9:56:35 PM
+# EESchema Netlist Version 1.1 created  3/2/2014 10:46:57 PM
 (
  ( /52FC4818 $noname  Y1 RESONATORSMD {Lib=RESONATORSMD}
   (    1 N-000055 )
@@ -140,7 +140,7 @@
   (    1 N-000069 )
   (    2 N-000070 )
  )
- ( /5306763E $noname  CH1 CONN_4 {Lib=CONN_4}
+ ( /5306763E $noname  P1 CH1 {Lib=CONN_4}
   (    1 GND )
   (    2 +5V )
   (    3 PC6 )
@@ -557,7 +557,7 @@ Net 1 "+5V" "+5V"
  R1 1
  P8 2
  CON1 2
- CH1 2
+ P1 2
  P5 2
  P2 2
  P3 2
@@ -608,7 +608,7 @@ Net 4 "GND" "GND"
  P4 1
  P3 1
  P0 4
- CH1 1
+ P1 1
  C2 2
  C1 2
  U4 4
@@ -682,13 +682,13 @@ Net 22 "PB4" "PB4"
  IC1 28
  P3 3
 Net 23 "PF0" "PF0"
- CH1 4
+ P1 4
  IC1 41
 Net 24 "PB5" "PB5"
  IC1 29
  P4 3
 Net 25 "PC6" "PC6"
- CH1 3
+ P1 3
  IC1 31
 Net 26 "PC7" "PC7"
  IC1 32
