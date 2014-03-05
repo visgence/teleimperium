@@ -37,7 +37,7 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Teleimperium"
-Date "3 mar 2014"
+Date "5 mar 2014"
 Rev "1"
 Comp "Visgence Inc."
 Comment1 ""
@@ -980,7 +980,7 @@ Wire Wire Line
 	1700 6850 1700 6600
 Wire Wire Line
 	1800 6850 1800 6700
-Text GLabel 1900 6700 1    40   Input ~ 0
+Text GLabel 3400 6700 1    40   Input ~ 0
 PF1
 Wire Wire Line
 	1900 6850 1900 6700
@@ -1068,16 +1068,14 @@ Wire Wire Line
 	4950 3500 5050 3500
 Wire Wire Line
 	4950 3400 5050 3400
-Text GLabel 7600 7000 3    40   Input ~ 0
+Text GLabel 10000 7000 3    40   Input ~ 0
 PD6
-Text GLabel 8850 7000 3    40   Input ~ 0
+Text GLabel 2300 6700 1    40   Input ~ 0
 PD7
-Text GLabel 5050 4400 2    40   Input ~ 0
+Text GLabel 2800 6700 1    40   Input ~ 0
 PE6
 Wire Wire Line
 	4950 4400 5050 4400
-Text GLabel 10000 7000 3    40   Input ~ 0
-PE6
 Text GLabel 5050 2200 2    40   Input ~ 0
 PB7
 Text GLabel 5050 2500 2    40   Input ~ 0
@@ -1088,7 +1086,7 @@ Text GLabel 5050 4000 2    40   Input ~ 0
 SDA
 Text GLabel 5050 4100 2    40   Input ~ 0
 SCL
-Text GLabel 1400 6700 1    40   Input ~ 0
+Text GLabel 3900 6700 1    40   Input ~ 0
 PF0
 Wire Wire Line
 	1400 6850 1400 6700
@@ -1214,23 +1212,23 @@ Wire Wire Line
 	3500 6750 3500 6650
 Wire Wire Line
 	3500 6650 3600 6650
-Text GLabel 2400 6700 1    40   Input ~ 0
-PF4
 Text GLabel 2900 6700 1    40   Input ~ 0
+PF4
+Text GLabel 2400 6700 1    40   Input ~ 0
 PF5
-Text GLabel 3400 6700 1    40   Input ~ 0
+Text GLabel 1900 6700 1    40   Input ~ 0
 PF6
-Text GLabel 3900 6700 1    40   Input ~ 0
+Text GLabel 1400 6700 1    40   Input ~ 0
 PF7
 Wire Wire Line
 	1300 6850 1300 6700
-Text GLabel 2300 6700 1    40   Input ~ 0
-PB4
-Text GLabel 2800 6700 1    40   Input ~ 0
-PB5
 Text GLabel 3300 6700 1    40   Input ~ 0
-PB6
+PB4
 Text GLabel 3800 6700 1    40   Input ~ 0
+PB5
+Text GLabel 7600 7000 3    40   Input ~ 0
+PB6
+Text GLabel 8850 7000 3    40   Input ~ 0
 PB7
 Text GLabel 5050 3200 2    40   Input ~ 0
 PC6
@@ -1240,7 +1238,7 @@ Wire Wire Line
 	4950 3100 5050 3100
 Wire Wire Line
 	4950 3200 5050 3200
-Text GLabel 1300 6700 1    40   Input ~ 0
+Text GLabel 1800 6700 1    40   Input ~ 0
 PC6
 $Comp
 L CONN_4 P8
@@ -1765,7 +1763,7 @@ NoConn ~ 7550 4700
 NoConn ~ 7550 4800
 Wire Wire Line
 	9100 3600 9150 3600
-Text GLabel 1800 6700 1    40   Input ~ 0
+Text GLabel 9200 4400 1    40   Input ~ 0
 PC7
 Wire Wire Line
 	7600 6100 7600 6350
@@ -2014,8 +2012,10 @@ Wire Wire Line
 	9200 5550 9200 5650
 Wire Wire Line
 	9200 5050 9200 5150
-Text GLabel 9200 4400 1    40   Input ~ 0
+Text GLabel 1300 6700 1    40   Input ~ 0
 PD4
 Wire Wire Line
 	9200 4400 9200 4550
+Text GLabel 5050 4400 2    40   Input ~ 0
+PE6
 $EndSCHEMATC
