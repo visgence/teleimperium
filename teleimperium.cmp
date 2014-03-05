@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/2/2014 10:47:04 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/4/2014 8:54:08 PM
 
 BeginCmp
 TimeStamp = /52FC4828;
@@ -197,30 +197,30 @@ IdModule  = bornier4;
 EndCmp
 
 BeginCmp
-TimeStamp = /52FC4D50;
+TimeStamp = /5316A479;
 Reference = Q1;
-ValeurCmp = MOS_N;
+ValeurCmp = MOS_N_VIS;
 IdModule  = SOT23;
 EndCmp
 
 BeginCmp
-TimeStamp = /52FC4D56;
+TimeStamp = /5316A486;
 Reference = Q2;
-ValeurCmp = MOS_N;
+ValeurCmp = MOS_N_VIS;
 IdModule  = SOT23;
 EndCmp
 
 BeginCmp
-TimeStamp = /52FC4D5C;
+TimeStamp = /5316A48C;
 Reference = Q3;
-ValeurCmp = MOS_N;
+ValeurCmp = MOS_N_VIS;
 IdModule  = SOT23;
 EndCmp
 
 BeginCmp
-TimeStamp = /531401CC;
+TimeStamp = /5316A2DF;
 Reference = Q4;
-ValeurCmp = MOS_P;
+ValeurCmp = MOS_P_VIS;
 IdModule  = SOT23;
 EndCmp
 
