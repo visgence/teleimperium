@@ -1,14 +1,14 @@
 (kicad_pcb (version 3) (host pcbnew "(2013-07-07 BZR 4022)-stable")
 
   (general
-    (links 154)
+    (links 0)
     (no_connects 150)
     (area 25.050999 24.993599 137.260001 89.306401)
     (thickness 1.6)
     (drawings 54)
     (tracks 20)
     (zones 0)
-    (modules 61)
+    (modules 64)
     (nets 61)
   )
 
@@ -2672,12 +2672,63 @@
       (xy 3.13182 -0.762)) (layer F.SilkS) (width 0.00254))
   )
 
-  (module 1pin_C (layer F.Cu) (tedit 5316B2B7) (tstamp 5316BA84)
+  (module 1pin_C (layer F.Cu) (tedit 5316B9EE) (tstamp 5316BA84)
     (at 132.08 30.48)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (path 1pin)
-    (fp_text reference p2 (at 0 -3.048) (layer F.SilkS) hide
+    (fp_text reference h1 (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.254)))
+    )
+    (fp_text value pin (at 0 2.794) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.254)))
+    )
+    (fp_circle (center 0 0) (end 3.175 0.2286) (layer F.SilkS) (width 0.381))
+    (pad 1 thru_hole circle (at 0 0) (size 6 6) (drill 3.5)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module 1pin_C (layer F.Cu) (tedit 5316B9E2) (tstamp 5316BC89)
+    (at 132.08 83.82)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (path 1pin)
+    (fp_text reference h2 (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.254)))
+    )
+    (fp_text value pin (at 0 2.794) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.254)))
+    )
+    (fp_circle (center 0 0) (end 3.175 0.2286) (layer F.SilkS) (width 0.381))
+    (pad 1 thru_hole circle (at 0 0) (size 6 6) (drill 3.5)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module 1pin_C (layer F.Cu) (tedit 5316B9FF) (tstamp 5316BCAA)
+    (at 30.48 83.82)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (path 1pin)
+    (fp_text reference h3 (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.254)))
+    )
+    (fp_text value pin (at 0 2.794) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.254)))
+    )
+    (fp_circle (center 0 0) (end 3.175 0.2286) (layer F.SilkS) (width 0.381))
+    (pad 1 thru_hole circle (at 0 0) (size 6 6) (drill 3.5)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module 1pin_C (layer F.Cu) (tedit 5316BA0A) (tstamp 5316BCC1)
+    (at 30.48 30.48)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (path 1pin)
+    (fp_text reference h4 (at 0 -3.048) (layer F.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.254)))
     )
     (fp_text value pin (at 0 2.794) (layer F.SilkS) hide
