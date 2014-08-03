@@ -1,23 +1,23 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-07 BZR 4737)-product date = 8/1/2014 9:21:29 PM
+Cmp-Mod V01 Created by Cvpcb (2014-08-01 BZR 5042)-product   date = 8/2/2014 10:22:14 PM
 
 BeginCmp
-TimeStamp = /52FC4828;
+TimeStamp = /53DC9902;
 Reference = C1;
-ValeurCmp = 1uF;
+ValeurCmp = 0.1u;
 IdModule  = visgence_parts:SM0603_Capa_VIS;
 EndCmp
 
 BeginCmp
-TimeStamp = /52FC482D;
+TimeStamp = /53DC9308;
 Reference = C2;
-ValeurCmp = 10u;
+ValeurCmp = 100u;
 IdModule  = visgence_parts:SM1210L_VIS;
 EndCmp
 
 BeginCmp
 TimeStamp = /530EB8F2;
 Reference = C3;
-ValeurCmp = 10u;
+ValeurCmp = 100u;
 IdModule  = visgence_parts:SM1210L_VIS;
 EndCmp
 
@@ -46,77 +46,63 @@ BeginCmp
 TimeStamp = /52FC481B;
 Reference = CON1;
 ValeurCmp = AVR-ISP-6;
-IdModule  = visgence_parts:pin_array_3x2;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x03;
 EndCmp
 
 BeginCmp
-TimeStamp = /52FC4851;
+TimeStamp = /53DC9313;
 Reference = D1;
 ValeurCmp = Power;
-IdModule  = visgence_parts:LED-0603;
+IdModule  = LEDs:LED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /530EDC2F;
 Reference = D2;
 ValeurCmp = TX;
-IdModule  = visgence_parts:LED-0603;
+IdModule  = LEDs:LED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /530EDE03;
 Reference = D3;
 ValeurCmp = RX;
-IdModule  = visgence_parts:LED-0603;
+IdModule  = LEDs:LED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /530EEA78;
 Reference = D4;
 ValeurCmp = RSSI;
-IdModule  = visgence_parts:LED-0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /5313FDF8;
-Reference = D5;
-ValeurCmp = DIODE;
-IdModule  = visgence_parts:SOD-323;
+IdModule  = LEDs:LED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5316B400;
 Reference = D6;
 ValeurCmp = STATUS;
-IdModule  = visgence_parts:LED-0603;
+IdModule  = LEDs:LED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /53141B59;
 Reference = D7;
 ValeurCmp = 3.3V;
-IdModule  = visgence_parts:LED-0603;
+IdModule  = LEDs:LED-0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /52FC4827;
-Reference = F1;
-ValeurCmp = FUSE;
-IdModule  = visgence_parts:SM1812;
-EndCmp
-
-BeginCmp
-TimeStamp = /52FC4878;
+TimeStamp = /53DC5D9E;
 Reference = IC1;
-ValeurCmp = ATMEGA32U4;
-IdModule  = visgence_parts:TQFP44;
+ValeurCmp = ATMEGA328P-A;
+IdModule  = SMD_Packages:TQFP32;
 EndCmp
 
 BeginCmp
 TimeStamp = /530ED113;
 Reference = J1;
-ValeurCmp = Aref_Jumper;
-IdModule  = visgence_parts:PIN_ARRAY_3X1;
+ValeurCmp = Aref Jumper;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
 EndCmp
 
 BeginCmp
@@ -127,135 +113,107 @@ IdModule  = visgence_parts:RJ45_8_ASSMAN;
 EndCmp
 
 BeginCmp
-TimeStamp = /52FC4824;
-Reference = P0;
-ValeurCmp = USBMICRO;
-IdModule  = visgence_parts:USB-MICRO-B;
-EndCmp
-
-BeginCmp
 TimeStamp = /5306763E;
 Reference = P1;
 ValeurCmp = CH1;
-IdModule  = visgence_parts:bornier4;
+IdModule  = visgence_parts:Term3.5-4;
 EndCmp
 
 BeginCmp
 TimeStamp = /53067684;
 Reference = P2;
 ValeurCmp = CH2;
-IdModule  = visgence_parts:bornier4;
+IdModule  = visgence_parts:Term3.5-4;
 EndCmp
 
 BeginCmp
 TimeStamp = /5306768A;
 Reference = P3;
 ValeurCmp = CH3;
-IdModule  = visgence_parts:bornier4;
+IdModule  = visgence_parts:Term3.5-4;
 EndCmp
 
 BeginCmp
 TimeStamp = /53067690;
 Reference = P4;
 ValeurCmp = CH4;
-IdModule  = visgence_parts:bornier4;
+IdModule  = visgence_parts:Term3.5-4;
 EndCmp
 
 BeginCmp
 TimeStamp = /530696DA;
 Reference = P5;
 ValeurCmp = CH5;
-IdModule  = visgence_parts:bornier4;
+IdModule  = visgence_parts:Term3.5-4;
 EndCmp
 
 BeginCmp
 TimeStamp = /5306ABA0;
 Reference = P6;
 ValeurCmp = CH6;
-IdModule  = visgence_parts:bornier4;
+IdModule  = visgence_parts:Term3.5-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /53DC66DB;
+Reference = P7;
+ValeurCmp = FTDI;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x06;
 EndCmp
 
 BeginCmp
 TimeStamp = /530D66C2;
 Reference = P8;
 ValeurCmp = I2C;
-IdModule  = visgence_parts:bornier4;
+IdModule  = visgence_parts:Term3.5-4;
 EndCmp
 
 BeginCmp
 TimeStamp = /530ED4A1;
 Reference = P9;
 ValeurCmp = PWR;
-IdModule  = visgence_parts:bornier2;
+IdModule  = visgence_parts:Term3.5-2;
 EndCmp
 
 BeginCmp
 TimeStamp = /530ED59B;
 Reference = P10;
 ValeurCmp = AREF;
-IdModule  = visgence_parts:bornier2;
+IdModule  = visgence_parts:Term3.5-2;
 EndCmp
 
 BeginCmp
 TimeStamp = /53115ECE;
 Reference = P11;
 ValeurCmp = SPI;
-IdModule  = visgence_parts:bornier4;
+IdModule  = visgence_parts:Term3.5-4;
 EndCmp
 
 BeginCmp
 TimeStamp = /5316A479;
 Reference = Q1;
 ValeurCmp = MOS_N_VIS;
-IdModule  = visgence_parts:SOT23;
+IdModule  = SMD_Packages:SOT23;
 EndCmp
 
 BeginCmp
 TimeStamp = /5316A486;
 Reference = Q2;
 ValeurCmp = MOS_N_VIS;
-IdModule  = visgence_parts:SOT23;
+IdModule  = SMD_Packages:SOT23;
 EndCmp
 
 BeginCmp
 TimeStamp = /5316A48C;
 Reference = Q3;
 ValeurCmp = MOS_N_VIS;
-IdModule  = visgence_parts:SOT23;
+IdModule  = SMD_Packages:SOT23;
 EndCmp
 
 BeginCmp
-TimeStamp = /5316A2DF;
-Reference = Q4;
-ValeurCmp = MOS_P_VIS;
-IdModule  = visgence_parts:SOT23;
-EndCmp
-
-BeginCmp
-TimeStamp = /52FC4854;
+TimeStamp = /53DC9914;
 Reference = R1;
 ValeurCmp = 10k;
-IdModule  = visgence_parts:SM0603_VIS;
-EndCmp
-
-BeginCmp
-TimeStamp = /52FC4825;
-Reference = R2;
-ValeurCmp = 22;
-IdModule  = visgence_parts:SM0603_VIS;
-EndCmp
-
-BeginCmp
-TimeStamp = /52FC4826;
-Reference = R3;
-ValeurCmp = 22;
-IdModule  = visgence_parts:SM0603_VIS;
-EndCmp
-
-BeginCmp
-TimeStamp = /52FC4850;
-Reference = R4;
-ValeurCmp = 1k;
 IdModule  = visgence_parts:SM0603_VIS;
 EndCmp
 
@@ -330,20 +288,6 @@ IdModule  = visgence_parts:SM0603_VIS;
 EndCmp
 
 BeginCmp
-TimeStamp = /53140520;
-Reference = R15;
-ValeurCmp = 10k;
-IdModule  = visgence_parts:SM0603_VIS;
-EndCmp
-
-BeginCmp
-TimeStamp = /5314051A;
-Reference = R16;
-ValeurCmp = 10k;
-IdModule  = visgence_parts:SM0603_VIS;
-EndCmp
-
-BeginCmp
 TimeStamp = /5316B3FA;
 Reference = R17;
 ValeurCmp = 1k;
@@ -358,17 +302,17 @@ IdModule  = visgence_parts:SM0603_VIS;
 EndCmp
 
 BeginCmp
-TimeStamp = /52FC4855;
-Reference = S1;
-ValeurCmp = RESET;
-IdModule  = visgence_parts:TACTILE_SWITCH_SMD;
+TimeStamp = /53DC66E3;
+Reference = SW1;
+ValeurCmp = JS202011SCQN;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /530EB8E5;
 Reference = U1;
 ValeurCmp = 7805;
-IdModule  = visgence_parts:LM78XXV;
+IdModule  = Discret:LM78XXV;
 EndCmp
 
 BeginCmp
@@ -381,33 +325,26 @@ EndCmp
 BeginCmp
 TimeStamp = /530EBB29;
 Reference = U3;
-ValeurCmp = 3.3V_Reg;
-IdModule  = visgence_parts:SOT23-5;
+ValeurCmp = 3.3V Reg;
+IdModule  = SMD_Packages:SOT23-5;
 EndCmp
 
 BeginCmp
 TimeStamp = /52FC5662;
 Reference = U4;
 ValeurCmp = MAX488;
-IdModule  = visgence_parts:SO8E;
+IdModule  = SMD_Packages:SO8E;
 EndCmp
 
 BeginCmp
 TimeStamp = /530ECE52;
 Reference = U5;
 ValeurCmp = REF5040;
-IdModule  = visgence_parts:SO8E;
+IdModule  = SMD_Packages:SO8E;
 EndCmp
 
 BeginCmp
-TimeStamp = /531404F7;
-Reference = U6;
-ValeurCmp = LMV358IDGKR;
-IdModule  = visgence_parts:MSOP_8;
-EndCmp
-
-BeginCmp
-TimeStamp = /52FC4818;
+TimeStamp = /53DC7704;
 Reference = Y1;
 ValeurCmp = RESONATORSMD;
 IdModule  = visgence_parts:RESONATOR-SMD;

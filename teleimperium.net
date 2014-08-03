@@ -1,854 +1,833 @@
-# EESchema Netlist Version 1.1 created  3/4/2014 9:47:09 PM
-(
- ( /52FC4818 $noname  Y1 RESONATORSMD {Lib=RESONATORSMD}
-  (    1 N-000033 )
-  (    2 GND )
-  (    3 N-000034 )
- )
- ( /52FC481B AVR-ISP-6  CON1 AVR-ISP-6 {Lib=AVR-ISP-6}
-  (    1 MISO )
-  (    2 +5V )
-  (    3 SCLK )
-  (    4 MOSI )
-  (    5 reset )
-  (    6 GND )
- )
- ( /52FC4824 $noname  P0 USBMICRO {Lib=USBMICRO}
-  (    1 UVCC )
-  (    2 N-000070 )
-  (    3 N-000071 )
-  (    4 GND )
-  (    5 GND )
- )
- ( /52FC4825 $noname  R2 22 {Lib=R}
-  (    1 N-000070 )
-  (    2 N-000066 )
- )
- ( /52FC4826 $noname  R3 22 {Lib=R}
-  (    1 N-000071 )
-  (    2 N-000067 )
- )
- ( /52FC4828 $noname  C1 1uF {Lib=C}
-  (    1 N-000060 )
-  (    2 GND )
- )
- ( /52FC482D $noname  C2 10u {Lib=CP1}
-  (    1 +5V )
-  (    2 GND )
- )
- ( /52FC4850 $noname  R4 1k {Lib=R}
-  (    1 N-000074 )
-  (    2 +5V )
- )
- ( /52FC4851 $noname  D1 Power {Lib=LED}
-  (    1 N-000074 )
-  (    2 GND )
- )
- ( /52FC4854 $noname  R1 10k {Lib=R}
-  (    1 +5V )
-  (    2 reset )
- )
- ( /52FC4855 $noname  S1 RESET {Lib=RESET}
-  (    1 GND )
-  (    2 GND )
-  (    3 reset )
-  (    4 reset )
- )
- ( /52FC4D64 $noname  U2 XBEE {Lib=XBEE}
-  (    1 +3.3V )
-  (    2 DOUT )
-  (    3 DIN )
-  (    4 ? )
-  (    5 ? )
-  (    6 RSSI )
-  (    7 ? )
-  (    8 ? )
-  (    9 x9 )
-  (   10 GND )
-  (   11 ? )
-  (   12 ? )
-  (   13 ? )
-  (   14 ? )
-  (   15 ? )
-  (   16 ? )
-  (   17 ? )
-  (   18 ? )
-  (   19 ? )
-  (   20 ? )
- )
- ( /52FC4D73 $noname  R5 1k {Lib=R}
-  (    1 +3.3V )
-  (    2 DOUT )
- )
- ( /52FC4E5D $noname  R6 1k {Lib=R}
-  (    1 +5V )
-  (    2 PB6 )
- )
- ( /52FC4E63 $noname  R7 1k {Lib=R}
-  (    1 +3.3V )
-  (    2 DIN )
- )
- ( /52FC4E69 $noname  R10 1k {Lib=R}
-  (    1 +5V )
-  (    2 PB7 )
- )
- ( /52FC4E6F $noname  R13 1k {Lib=R}
-  (    1 +3.3V )
-  (    2 x9 )
- )
- ( /52FC4E75 $noname  R14 1k {Lib=R}
-  (    1 +5V )
-  (    2 PD6 )
- )
- ( /52FC565C $noname  J2 RJ45 {Lib=RJ45}
-  (    1 N-000065 )
-  (    2 N-000064 )
-  (    3 N-000062 )
-  (    4 RAW )
-  (    5 RAW )
-  (    6 N-000063 )
-  (    7 GND )
-  (    8 GND )
-  (    9 ? )
- )
- ( /52FC5662 $noname  U4 MAX488 {Lib=MAX488}
-  (    1 +5V )
-  (    2 RX )
-  (    3 TX )
-  (    4 GND )
-  (    5 N-000062 )
-  (    6 N-000063 )
-  (    7 N-000064 )
-  (    8 N-000065 )
- )
- ( /52FC5668 $noname  R12 100 {Lib=R}
-  (    1 N-000065 )
-  (    2 N-000064 )
- )
- ( /5306763E $noname  P1 CH1 {Lib=CONN_4}
-  (    1 GND )
-  (    2 +5V )
-  (    3 PD4 )
-  (    4 PF7 )
- )
- ( /53067684 $noname  P2 CH2 {Lib=CONN_4}
-  (    1 GND )
-  (    2 +5V )
-  (    3 PC6 )
-  (    4 PF6 )
- )
- ( /5306768A $noname  P3 CH3 {Lib=CONN_4}
-  (    1 GND )
-  (    2 +5V )
-  (    3 PD7 )
-  (    4 PF5 )
- )
- ( /53067690 $noname  P4 CH4 {Lib=CONN_4}
-  (    1 GND )
-  (    2 +5V )
-  (    3 PE6 )
-  (    4 PF4 )
- )
- ( /530696DA $noname  P5 CH5 {Lib=CONN_4}
-  (    1 GND )
-  (    2 +5V )
-  (    3 PB4 )
-  (    4 PF1 )
- )
- ( /5306ABA0 $noname  P6 CH6 {Lib=CONN_4}
-  (    1 GND )
-  (    2 +5V )
-  (    3 PB5 )
-  (    4 PF0 )
- )
- ( /530D66C2 $noname  P8 I2C {Lib=CONN_4}
-  (    1 GND )
-  (    2 +5V )
-  (    3 SCL )
-  (    4 SDA )
- )
- ( /530EB8E5 $noname  U1 7805 {Lib=7805}
-  (  GND GND )
-  (   VI VIN )
-  (   VO +5V )
- )
- ( /530EB8F2 $noname  C3 10u {Lib=CP1}
-  (    1 VIN )
-  (    2 GND )
- )
- ( /530EBB29 TSOT-23-5  U3 3.3V_Reg {Lib=LD3985G122R}
-  (    1 +5V )
-  (    2 GND )
-  (    3 +5V )
-  (    4 ? )
-  (    5 +3.3V )
- )
- ( /530EBD8D $noname  C4 10u {Lib=CP1}
-  (    1 +3.3V )
-  (    2 GND )
- )
- ( /530ECE43 $noname  C6 1u {Lib=C}
-  (    1 4.096 )
-  (    2 GND )
- )
- ( /530ECE52 SO8E  U5 REF5040 {Lib=REF50XX}
-  (    1 ? )
-  (    2 +5V )
-  (    3 ? )
-  (    4 GND )
-  (    5 N-000007 )
-  (    6 4.096 )
-  (    7 ? )
-  (    8 ? )
- )
- ( /530ECE58 $noname  C5 1u {Lib=C}
-  (    1 N-000007 )
-  (    2 GND )
- )
- ( /530ED113 $noname  J1 Aref_Jumper {Lib=CONN_3}
-  (    1 4.096 )
-  (    2 N-000038 )
-  (    3 AREF )
- )
- ( /530ED4A1 $noname  P9 PWR {Lib=CONN_2}
-  (    1 GND )
-  (    2 RAW )
- )
- ( /530ED59B $noname  P10 AREF {Lib=CONN_2}
-  (    1 GND )
-  (    2 AREF )
- )
- ( /530EDA61 $noname  R8 1k {Lib=R}
-  (    1 TXLED )
-  (    2 N-000037 )
- )
- ( /52FC4878 TQFP44  IC1 ATMEGA32U4 {Lib=ATMEGA32U4}
-  (    1 PE6 )
-  (    2 UVCC )
-  (    3 N-000066 )
-  (    4 N-000067 )
-  (    5 GND )
-  (    6 N-000060 )
-  (    7 UVCC )
-  (    8 RXLED )
-  (    9 SCLK )
-  (   10 MOSI )
-  (   11 MISO )
-  (   12 PB7 )
-  (   13 reset )
-  (   14 +5V )
-  (   15 GND )
-  (   16 N-000033 )
-  (   17 N-000034 )
-  (   18 SCL )
-  (   19 SDA )
-  (   20 RX )
-  (   21 TX )
-  (   22 TXLED )
-  (   23 GND )
-  (   24 +5V )
-  (   25 PD4 )
-  (   26 PD6 )
-  (   27 PD7 )
-  (   28 PB4 )
-  (   29 PB5 )
-  (   30 PB6 )
-  (   31 PC6 )
-  (   32 PC7 )
-  (   33 ? )
-  (   34 +5V )
-  (   35 GND )
-  (   36 PF7 )
-  (   37 PF6 )
-  (   38 PF5 )
-  (   39 PF4 )
-  (   40 PF1 )
-  (   41 PF0 )
-  (   42 N-000038 )
-  (   43 GND )
-  (   44 +5V )
- )
- ( /530EDC2F $noname  D2 TX {Lib=LED}
-  (    1 N-000037 )
-  (    2 GND )
- )
- ( /530EDE03 $noname  D3 RX {Lib=LED}
-  (    1 N-000050 )
-  (    2 GND )
- )
- ( /530EDE0F $noname  R9 1k {Lib=R}
-  (    1 RXLED )
-  (    2 N-000050 )
- )
- ( /530EE96E $noname  R11 1k {Lib=R}
-  (    1 RSSI )
-  (    2 N-000052 )
- )
- ( /530EEA78 $noname  D4 RSSI {Lib=LED}
-  (    1 N-000052 )
-  (    2 GND )
- )
- ( /53115ECE $noname  P11 SPI {Lib=CONN_4}
-  (    1 GND )
-  (    2 MISO )
-  (    3 SCLK )
-  (    4 MOSI )
- )
- ( /5313FDF8 $noname  D5 DIODE {Lib=DIODE}
-  (    1 RAW )
-  (    2 VIN )
- )
- ( /52FC4827 $noname  F1 FUSE {Lib=FUSE}
-  (    1 UVCC )
-  (    2 N-000028 )
- )
- ( /531404F7 $noname  U6 LMV358IDGKR {Lib=LM293}
-  (    1 N-000027 )
-  (    2 +3.3V )
-  (    3 N-000026 )
-  (    4 GND )
-  (    8 +5V )
- )
- ( /5314051A $noname  R16 10k {Lib=R}
-  (    1 N-000026 )
-  (    2 GND )
- )
- ( /53140520 $noname  R15 10k {Lib=R}
-  (    1 VIN )
-  (    2 N-000026 )
- )
- ( /53141B53 $noname  R18 1k {Lib=R}
-  (    1 +3.3V )
-  (    2 N-000031 )
- )
- ( /53141B59 $noname  D7 3.3V {Lib=LED}
-  (    1 N-000031 )
-  (    2 GND )
- )
- ( /5316A2DF $noname  Q4 MOS_P_VIS {Lib=MOS_P_VIS}
-  (    1 N-000027 )
-  (    2 +5V )
-  (    3 N-000028 )
- )
- ( /5316A479 $noname  Q1 MOS_N_VIS {Lib=MOS_N_VIS}
-  (    1 +3.3V )
-  (    2 DOUT )
-  (    3 PB6 )
- )
- ( /5316A486 $noname  Q2 MOS_N_VIS {Lib=MOS_N_VIS}
-  (    1 +3.3V )
-  (    2 DIN )
-  (    3 PB7 )
- )
- ( /5316A48C $noname  Q3 MOS_N_VIS {Lib=MOS_N_VIS}
-  (    1 +3.3V )
-  (    2 x9 )
-  (    3 PD6 )
- )
- ( /5316B3FA $noname  R17 1k {Lib=R}
-  (    1 PC7 )
-  (    2 N-000030 )
- )
- ( /5316B400 $noname  D6 STATUS {Lib=LED}
-  (    1 N-000030 )
-  (    2 GND )
- )
-)
-*
-{ Allowed footprints by component:
-$component R2
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R3
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component C1
- SM*
- C?
- C1-1
-$endlist
-$component C2
- CP*
- SM*
-$endlist
-$component R4
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component D1
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component R1
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R5
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R6
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R7
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R10
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R13
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R14
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R12
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component C3
- CP*
- SM*
-$endlist
-$component U3
- TSOT*
-$endlist
-$component C4
- CP*
- SM*
-$endlist
-$component C6
- SM*
- C?
- C1-1
-$endlist
-$component C5
- SM*
- C?
- C1-1
-$endlist
-$component R8
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component IC1
- TQFP44
-$endlist
-$component D2
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D3
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component R9
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R11
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component D4
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D5
- D?
- S*
-$endlist
-$component R16
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R15
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R18
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component D7
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component R17
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component D6
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$endfootprintlist
-}
-{ Pin List by Nets
-Net 1 "GND" "GND"
- IC1 43
- IC1 23
- D2 2
- P1 1
- IC1 35
- IC1 15
- P11 1
- D3 2
- R16 2
- P8 1
- C3 2
- D7 2
- D6 2
- U6 4
- P0 5
- P0 4
- CON1 6
- Y1 2
- C2 2
- C1 2
- J2 8
- J2 7
- P2 1
- S1 2
- D4 2
- P3 1
- P4 1
- U4 4
- D1 2
- U2 10
- S1 1
- U5 4
- P9 1
- U3 2
- C5 2
- C4 2
- P10 1
- U1 GND
- IC1 5
- C6 2
- P5 1
- P6 1
-Net 2 "4.096" "4.096"
- U5 6
- J1 1
- C6 1
-Net 7 "" ""
- C5 1
- U5 5
-Net 9 "+5V" "+5V"
- P4 2
- P3 2
- IC1 44
- IC1 24
- IC1 34
- U3 1
- U3 3
- U5 2
- C2 1
- CON1 2
- R1 1
- R6 1
- R10 1
- R14 1
- U4 1
- P2 2
- R4 2
- IC1 14
- Q4 2
- U6 8
- P1 2
- P6 2
- P8 2
- U1 VO
- P5 2
-Net 10 "+3.3V" "+3.3V"
- U6 2
- R13 1
- R7 1
- Q2 1
- R5 1
- Q3 1
- U3 5
- Q1 1
- C4 1
- U2 1
- R18 1
-Net 11 "RAW" "RAW"
- P9 2
- J2 5
- J2 4
- D5 1
-Net 12 "AREF" "AREF"
- J1 3
- P10 2
-Net 13 "PF0" "PF0"
- IC1 41
- P6 4
-Net 14 "PB4" "PB4"
- IC1 28
- P5 3
-Net 15 "PB5" "PB5"
- IC1 29
- P6 3
-Net 16 "PF7" "PF7"
- P1 4
- IC1 36
-Net 17 "SCLK" "SCLK"
- P11 3
- CON1 3
- IC1 9
-Net 18 "MOSI" "MOSI"
- P11 4
- IC1 10
- CON1 4
-Net 19 "MISO" "MISO"
- IC1 11
- P11 2
- CON1 1
-Net 20 "SCL" "SCL"
- IC1 18
- P8 3
-Net 21 "SDA" "SDA"
- P8 4
- IC1 19
-Net 22 "PC6" "PC6"
- IC1 31
- P2 3
-Net 23 "PD4" "PD4"
- P1 3
- IC1 25
-Net 24 "PC7" "PC7"
- R17 1
- IC1 32
-Net 25 "VIN" "VIN"
- D5 2
- C3 1
- U1 VI
- R15 1
-Net 26 "" ""
- R16 1
- U6 3
- R15 2
-Net 27 "" ""
- U6 1
- Q4 1
-Net 28 "" ""
- Q4 3
- F1 2
-Net 29 "PB7" "PB7"
- IC1 12
- R10 2
- Q2 3
-Net 30 "" ""
- R17 2
- D6 1
-Net 31 "" ""
- D7 1
- R18 2
-Net 32 "PE6" "PE6"
- P4 3
- IC1 1
-Net 33 "" ""
- Y1 1
- IC1 16
-Net 34 "" ""
- Y1 3
- IC1 17
-Net 35 "RXLED" "RXLED"
- IC1 8
- R9 1
-Net 36 "TXLED" "TXLED"
- IC1 22
- R8 1
-Net 37 "" ""
- R8 2
- D2 1
-Net 38 "" ""
- J1 2
- IC1 42
-Net 50 "" ""
- R9 2
- D3 1
-Net 51 "RSSI" "RSSI"
- U2 6
- R11 1
-Net 52 "" ""
- D4 1
- R11 2
-Net 53 "DIN" "DIN"
- Q2 2
- R7 2
- U2 3
-Net 59 "RX" "RX"
- U4 2
- IC1 20
-Net 60 "" ""
- IC1 6
- C1 1
-Net 61 "TX" "TX"
- U4 3
- IC1 21
-Net 62 "" ""
- U4 5
- J2 3
-Net 63 "" ""
- U4 6
- J2 6
-Net 64 "" ""
- R12 2
- U4 7
- J2 2
-Net 65 "" ""
- R12 1
- J2 1
- U4 8
-Net 66 "" ""
- R2 2
- IC1 3
-Net 67 "" ""
- R3 2
- IC1 4
-Net 68 "reset" "reset"
- S1 4
- CON1 5
- R1 2
- S1 3
- IC1 13
-Net 69 "UVCC" "UVCC"
- P0 1
- IC1 2
- F1 1
- IC1 7
-Net 70 "" ""
- P0 2
- R2 1
-Net 71 "" ""
- R3 1
- P0 3
-Net 72 "DOUT" "DOUT"
- U2 2
- Q1 2
- R5 2
-Net 73 "x9" "x9"
- U2 9
- R13 2
- Q3 2
-Net 74 "" ""
- R4 1
- D1 1
-Net 75 "PF4" "PF4"
- P4 4
- IC1 39
-Net 76 "PF6" "PF6"
- IC1 37
- P2 4
-Net 77 "PF5" "PF5"
- P3 4
- IC1 38
-Net 78 "PF1" "PF1"
- P5 4
- IC1 40
-Net 79 "PD7" "PD7"
- IC1 27
- P3 3
-Net 80 "PD6" "PD6"
- R14 2
- IC1 26
- Q3 3
-Net 81 "PB6" "PB6"
- IC1 30
- Q1 3
- R6 2
-}
-#End
+(export (version D)
+  (design
+    (source C:/Users/esalazar/git/teleimperium/teleimperium.sch)
+    (date "8/2/2014 9:17:07 PM")
+    (tool "Eeschema (2014-08-01 BZR 5042)-product"))
+  (components
+    (comp (ref CON1)
+      (value AVR-ISP-6)
+      (footprint AVR-ISP-6)
+      (libsource (lib atmel) (part AVR-ISP-6))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52FC481B))
+    (comp (ref U2)
+      (value XBEE)
+      (libsource (lib visgence_parts) (part XBEE))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52FC4D64))
+    (comp (ref R5)
+      (value 1k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52FC4D73))
+    (comp (ref R6)
+      (value 1k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52FC4E5D))
+    (comp (ref R7)
+      (value 1k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52FC4E63))
+    (comp (ref R10)
+      (value 1k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52FC4E69))
+    (comp (ref R13)
+      (value 1k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52FC4E6F))
+    (comp (ref R14)
+      (value 1k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52FC4E75))
+    (comp (ref J2)
+      (value RJ45)
+      (libsource (lib conn) (part RJ45))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52FC565C))
+    (comp (ref U4)
+      (value MAX488)
+      (libsource (lib visgence_parts) (part MAX488))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52FC5662))
+    (comp (ref R12)
+      (value 100)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52FC5668))
+    (comp (ref P1)
+      (value CH1)
+      (libsource (lib conn) (part CONN_4))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5306763E))
+    (comp (ref P2)
+      (value CH2)
+      (libsource (lib conn) (part CONN_4))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53067684))
+    (comp (ref P3)
+      (value CH3)
+      (libsource (lib conn) (part CONN_4))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5306768A))
+    (comp (ref P4)
+      (value CH4)
+      (libsource (lib conn) (part CONN_4))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53067690))
+    (comp (ref P5)
+      (value CH5)
+      (libsource (lib conn) (part CONN_4))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 530696DA))
+    (comp (ref P6)
+      (value CH6)
+      (libsource (lib conn) (part CONN_4))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5306ABA0))
+    (comp (ref P8)
+      (value I2C)
+      (libsource (lib conn) (part CONN_4))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 530D66C2))
+    (comp (ref U1)
+      (value 7805)
+      (libsource (lib regul) (part 7805))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 530EB8E5))
+    (comp (ref C3)
+      (value 100u)
+      (libsource (lib device) (part CP1))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 530EB8F2))
+    (comp (ref U3)
+      (value "3.3V Reg")
+      (footprint TSOT-23-5)
+      (libsource (lib regul) (part LD3985G122R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 530EBB29))
+    (comp (ref C4)
+      (value 10u)
+      (libsource (lib device) (part CP1))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 530EBD8D))
+    (comp (ref C6)
+      (value 1u)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 530ECE43))
+    (comp (ref U5)
+      (value REF5040)
+      (footprint SO8E)
+      (libsource (lib visgence_parts) (part REF50XX))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 530ECE52))
+    (comp (ref C5)
+      (value 1u)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 530ECE58))
+    (comp (ref J1)
+      (value "Aref Jumper")
+      (libsource (lib conn) (part CONN_3))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 530ED113))
+    (comp (ref P9)
+      (value PWR)
+      (libsource (lib conn) (part CONN_2))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 530ED4A1))
+    (comp (ref P10)
+      (value AREF)
+      (libsource (lib conn) (part CONN_2))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 530ED59B))
+    (comp (ref R8)
+      (value 1k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 530EDA61))
+    (comp (ref D2)
+      (value TX)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 530EDC2F))
+    (comp (ref D3)
+      (value RX)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 530EDE03))
+    (comp (ref R9)
+      (value 1k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 530EDE0F))
+    (comp (ref R11)
+      (value 1k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 530EE96E))
+    (comp (ref D4)
+      (value RSSI)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 530EEA78))
+    (comp (ref P11)
+      (value SPI)
+      (libsource (lib conn) (part CONN_4))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53115ECE))
+    (comp (ref R18)
+      (value 1k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53141B53))
+    (comp (ref D7)
+      (value 3.3V)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53141B59))
+    (comp (ref Q1)
+      (value MOS_N_VIS)
+      (libsource (lib visgence_parts) (part MOS_N_VIS))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5316A479))
+    (comp (ref Q2)
+      (value MOS_N_VIS)
+      (libsource (lib visgence_parts) (part MOS_N_VIS))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5316A486))
+    (comp (ref Q3)
+      (value MOS_N_VIS)
+      (libsource (lib visgence_parts) (part MOS_N_VIS))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5316A48C))
+    (comp (ref R17)
+      (value 1k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5316B3FA))
+    (comp (ref D6)
+      (value STATUS)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5316B400))
+    (comp (ref IC1)
+      (value ATMEGA328P-A)
+      (footprint TQFP32)
+      (libsource (lib atmel) (part ATMEGA328P-A))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53DC5D9E))
+    (comp (ref P7)
+      (value FTDI)
+      (libsource (lib conn) (part CONN_6))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53DC66DB))
+    (comp (ref SW1)
+      (value JS202011SCQN)
+      (libsource (lib device) (part DUAL_SWITCH_INV))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53DC66E3))
+    (comp (ref Y1)
+      (value RESONATORSMD)
+      (libsource (lib visgence_parts) (part RESONATORSMD))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53DC7704))
+    (comp (ref C2)
+      (value 100u)
+      (libsource (lib device) (part CP1))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53DC9308))
+    (comp (ref D1)
+      (value Power)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53DC9313))
+    (comp (ref C1)
+      (value 0.1u)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53DC9902))
+    (comp (ref R1)
+      (value 10k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53DC9914)))
+  (libparts
+    (libpart (lib device) (part C)
+      (description "Condensateur non polarise")
+      (footprints
+        (fp SM*)
+        (fp C?)
+        (fp C1-1))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part CP1)
+      (description "Condensateur polarise")
+      (footprints
+        (fp CP*)
+        (fp SM*))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) CP1))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part DUAL_SWITCH_INV)
+      (description "Dual Switch inverseur")
+      (fields
+        (field (name Reference) SW)
+        (field (name Value) DUAL_SWITCH_INV))
+      (pins
+        (pin (num 1) (name A) (type passive))
+        (pin (num 2) (name B) (type passive))
+        (pin (num 3) (name C) (type passive))
+        (pin (num 4) (name A) (type passive))
+        (pin (num 5) (name B) (type passive))
+        (pin (num 6) (name C) (type passive))))
+    (libpart (lib device) (part LED)
+      (footprints
+        (fp LED-3MM)
+        (fp LED-5MM)
+        (fp LED-10MM)
+        (fp LED-0603)
+        (fp LED-0805)
+        (fp LED-1206)
+        (fp LEDV))
+      (fields
+        (field (name Reference) D)
+        (field (name Value) LED))
+      (pins
+        (pin (num 1) (name A) (type passive))
+        (pin (num 2) (name K) (type passive))))
+    (libpart (lib device) (part R)
+      (description Resistance)
+      (footprints
+        (fp R?)
+        (fp SM0603)
+        (fp SM0805)
+        (fp R?-*)
+        (fp SM1206))
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib conn) (part CONN_2)
+      (description "Symbole general de connecteur")
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_2))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name PM) (type passive))))
+    (libpart (lib conn) (part CONN_3)
+      (description "Symbole general de connecteur")
+      (fields
+        (field (name Reference) K)
+        (field (name Value) CONN_3))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name PM) (type passive))
+        (pin (num 3) (name P3) (type passive))))
+    (libpart (lib conn) (part CONN_4)
+      (description "Symbole general de connecteur")
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_4))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name P2) (type passive))
+        (pin (num 3) (name P3) (type passive))
+        (pin (num 4) (name P4) (type passive))))
+    (libpart (lib conn) (part CONN_6)
+      (description "ymbole general de connecteur")
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_6))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))
+        (pin (num 3) (name 3) (type passive))
+        (pin (num 4) (name 4) (type passive))
+        (pin (num 5) (name 5) (type passive))
+        (pin (num 6) (name 6) (type passive))))
+    (libpart (lib conn) (part RJ45)
+      (fields
+        (field (name Reference) J)
+        (field (name Value) RJ45))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))
+        (pin (num 3) (name ~) (type passive))
+        (pin (num 4) (name ~) (type passive))
+        (pin (num 5) (name ~) (type passive))
+        (pin (num 6) (name ~) (type passive))
+        (pin (num 7) (name ~) (type passive))
+        (pin (num 8) (name ~) (type passive))
+        (pin (num 9) (name SHIELD) (type passive))))
+    (libpart (lib regul) (part 7805)
+      (aliases
+        (alias LM7805)
+        (alias LM7812)
+        (alias 78L05))
+      (description "Linear Regulator +5V")
+      (docs regulator\lm78xx.pdf)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) 7805))
+      (pins
+        (pin (num GND) (name GND) (type input))
+        (pin (num VI) (name VI) (type input))
+        (pin (num VO) (name VO) (type power_out))))
+    (libpart (lib regul) (part LD3985G122R)
+      (aliases
+        (alias LD3985G18R)
+        (alias LD3985G25R)
+        (alias LD3985G26R)
+        (alias LD3985G27R)
+        (alias LD3985G28R)
+        (alias LD3985G30R)
+        (alias LD3985G33R)
+        (alias LD3985G47R))
+      (description "LD3985G122R, 150 mA Low Dropout Voltage Regulator, Fixed Output 1.22V, TSOT-23-5")
+      (docs http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00003395.pdf)
+      (footprints
+        (fp TSOT*))
+      (fields
+        (field (name Reference) U)
+        (field (name Value) LD3985G122R)
+        (field (name Footprint) TSOT-23-5))
+      (pins
+        (pin (num 1) (name VIN) (type input))
+        (pin (num 2) (name GND) (type power_in))
+        (pin (num 3) (name INH) (type input))
+        (pin (num 4) (name BYP) (type input))
+        (pin (num 5) (name VOUT) (type power_out))))
+    (libpart (lib atmel) (part ATMEGA168A-A)
+      (aliases
+        (alias ATMEGA48A-A)
+        (alias ATMEGA48PA-A)
+        (alias ATMEGA88A-A)
+        (alias ATMEGA88PA-A)
+        (alias ATMEGA168PA-A)
+        (alias ATMEGA328-A)
+        (alias ATMEGA328P-A))
+      (description "ATMEGA168A, TQFP32, 16k Flash, 1kB SRAM, 512B EEPROM")
+      (docs http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf)
+      (fields
+        (field (name Reference) IC)
+        (field (name Value) ATMEGA168A-A)
+        (field (name Footprint) TQFP32))
+      (pins
+        (pin (num 1) (name "(PCINT19/OC2B/INT1)PD3") (type BiDi))
+        (pin (num 2) (name "(PCINT20/XCK/T0)PD4") (type BiDi))
+        (pin (num 3) (name GND) (type power_in))
+        (pin (num 4) (name VCC) (type power_in))
+        (pin (num 5) (name GND) (type power_in))
+        (pin (num 6) (name VCC) (type power_in))
+        (pin (num 7) (name "(PCINT6/XTAL1/TOSC1)PB6") (type BiDi))
+        (pin (num 8) (name "(PCINT7/XTAL2/TOSC2)PB7") (type BiDi))
+        (pin (num 9) (name "(PCINT21/OC0B/T1)PD5") (type BiDi))
+        (pin (num 10) (name "(PCINT22/OC0A/AIN0)PD6") (type BiDi))
+        (pin (num 11) (name "(PCINT23/AIN1)PD7") (type BiDi))
+        (pin (num 12) (name "(PCINT0/CLKO/ICP1)PB0") (type BiDi))
+        (pin (num 13) (name "(PCINT1/OC1A)PB1") (type BiDi))
+        (pin (num 14) (name "(PCINT2/OC1B/~SS~)PB2") (type BiDi))
+        (pin (num 15) (name "(PCINT3/OC2A/MOSI)PB3") (type BiDi))
+        (pin (num 16) (name "(PCINT4/MISO)PB4") (type BiDi))
+        (pin (num 17) (name "(PCINT5/SCK)PB5") (type BiDi))
+        (pin (num 18) (name AVCC) (type power_in))
+        (pin (num 19) (name ADC6) (type input))
+        (pin (num 20) (name AREF) (type BiDi))
+        (pin (num 21) (name GND) (type power_in))
+        (pin (num 22) (name ADC7) (type input))
+        (pin (num 23) (name "(PCINT8/ADC0)PC0") (type BiDi))
+        (pin (num 24) (name "(PCINT9/ADC1)PC1") (type BiDi))
+        (pin (num 25) (name "(PCINT10/ADC2)PC2") (type BiDi))
+        (pin (num 26) (name "(PCINT11/ADC3)PC3") (type BiDi))
+        (pin (num 27) (name "(PCINT12/SDA/ADC4)PC4") (type BiDi))
+        (pin (num 28) (name "(PCINT14/SCL/ADC5)PC5") (type BiDi))
+        (pin (num 29) (name "(PCINT14/~RESET~)PC6") (type BiDi))
+        (pin (num 30) (name "(PCINT16/RXD)PD0") (type BiDi))
+        (pin (num 31) (name "(PCINT17/TXD)PD1") (type BiDi))
+        (pin (num 32) (name "(PCINT18/INT0)PD2") (type BiDi))))
+    (libpart (lib atmel) (part AVR-ISP-6)
+      (description "Standard IDC6 Male Connector, ATMEL ISP 6pin")
+      (fields
+        (field (name Reference) CON)
+        (field (name Value) AVR-ISP-6)
+        (field (name Footprint) AVR-ISP-6))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))
+        (pin (num 3) (name ~) (type passive))
+        (pin (num 4) (name ~) (type passive))
+        (pin (num 5) (name ~) (type passive))
+        (pin (num 6) (name ~) (type passive))))
+    (libpart (lib visgence_parts) (part MAX488)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) MAX488))
+      (pins
+        (pin (num 1) (name Vcc) (type input))
+        (pin (num 2) (name RD) (type input))
+        (pin (num 3) (name DI) (type input))
+        (pin (num 4) (name GND) (type input))
+        (pin (num 5) (name Y) (type input))
+        (pin (num 6) (name Z) (type input))
+        (pin (num 7) (name B) (type input))
+        (pin (num 8) (name A) (type input))
+        (pin (num A) (name A) (type input))))
+    (libpart (lib visgence_parts) (part MOS_N_VIS)
+      (docs transistors/mos/*.*)
+      (fields
+        (field (name Reference) Q)
+        (field (name Value) MOS_N_VIS))
+      (pins
+        (pin (num 1) (name G) (type input))
+        (pin (num 2) (name S) (type passive))
+        (pin (num 3) (name D) (type passive))))
+    (libpart (lib visgence_parts) (part REF50XX)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) REF50XX))
+      (pins
+        (pin (num 1) (name DNC) (type NotConnected))
+        (pin (num 2) (name Vin) (type input))
+        (pin (num 3) (name TEMP) (type output))
+        (pin (num 4) (name GND) (type input))
+        (pin (num 5) (name TRIM) (type input))
+        (pin (num 6) (name Vout) (type output))
+        (pin (num 7) (name NC) (type NotConnected))
+        (pin (num 8) (name DNC) (type NotConnected))))
+    (libpart (lib visgence_parts) (part RESONATORSMD)
+      (fields
+        (field (name Reference) Y)
+        (field (name Value) RESONATORSMD))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))
+        (pin (num 3) (name 3) (type passive))))
+    (libpart (lib visgence_parts) (part XBEE)
+      (fields
+        (field (name Reference) U?)
+        (field (name Value) XBEE))
+      (pins
+        (pin (num 1) (name VDD) (type power_in))
+        (pin (num 2) (name DOUT) (type output))
+        (pin (num 3) (name DIN) (type input))
+        (pin (num 4) (name DIO12) (type BiDi))
+        (pin (num 5) (name RESET) (type input))
+        (pin (num 6) (name RSSI) (type BiDi))
+        (pin (num 7) (name DIO11) (type BiDi))
+        (pin (num 8) (name RES@8) (type BiDi))
+        (pin (num 9) (name DTR) (type BiDi))
+        (pin (num 10) (name GND) (type power_in))
+        (pin (num 11) (name DIO4) (type BiDi))
+        (pin (num 12) (name CTS) (type output))
+        (pin (num 13) (name DIO9) (type BiDi))
+        (pin (num 14) (name RES@14) (type BiDi))
+        (pin (num 15) (name DIO5) (type BiDi))
+        (pin (num 16) (name RTS) (type input))
+        (pin (num 17) (name DIO3) (type BiDi))
+        (pin (num 18) (name DIO2) (type BiDi))
+        (pin (num 19) (name DIO1) (type BiDi))
+        (pin (num 20) (name DIO0) (type BiDi)))))
+  (libraries
+    (library (logical device)
+      (uri C:\Users\esalazar\kicad-winbuilder\kicad\share\library\device.lib))
+    (library (logical conn)
+      (uri C:\Users\esalazar\kicad-winbuilder\kicad\share\library\conn.lib))
+    (library (logical regul)
+      (uri C:\Users\esalazar\kicad-winbuilder\kicad\share\library\regul.lib))
+    (library (logical atmel)
+      (uri C:\Users\esalazar\kicad-winbuilder\kicad\share\library\atmel.lib))
+    (library (logical visgence_parts)
+      (uri ..\visgence_parts\visgence_parts.lib)))
+  (nets
+    (net (code 1) (name "Net-(C5-Pad1)")
+      (node (ref C5) (pin 1))
+      (node (ref U5) (pin 5)))
+    (net (code 2) (name "Net-(U2-Pad20)")
+      (node (ref U2) (pin 20)))
+    (net (code 3) (name "Net-(U2-Pad19)")
+      (node (ref U2) (pin 19)))
+    (net (code 4) (name "Net-(U2-Pad18)")
+      (node (ref U2) (pin 18)))
+    (net (code 5) (name "Net-(U2-Pad17)")
+      (node (ref U2) (pin 17)))
+    (net (code 6) (name "Net-(U2-Pad16)")
+      (node (ref U2) (pin 16)))
+    (net (code 7) (name "Net-(U2-Pad15)")
+      (node (ref U2) (pin 15)))
+    (net (code 8) (name "Net-(U2-Pad14)")
+      (node (ref U2) (pin 14)))
+    (net (code 9) (name "Net-(U2-Pad13)")
+      (node (ref U2) (pin 13)))
+    (net (code 10) (name "Net-(U2-Pad12)")
+      (node (ref U2) (pin 12)))
+    (net (code 11) (name "Net-(U2-Pad11)")
+      (node (ref U2) (pin 11)))
+    (net (code 12) (name GND)
+      (node (ref U1) (pin GND))
+      (node (ref C3) (pin 2))
+      (node (ref P5) (pin 1))
+      (node (ref P3) (pin 1))
+      (node (ref P9) (pin 1))
+      (node (ref P8) (pin 1))
+      (node (ref P10) (pin 1))
+      (node (ref U3) (pin 2))
+      (node (ref C5) (pin 2))
+      (node (ref J2) (pin 7))
+      (node (ref IC1) (pin 3))
+      (node (ref IC1) (pin 5))
+      (node (ref U4) (pin 4))
+      (node (ref J2) (pin 8))
+      (node (ref IC1) (pin 21))
+      (node (ref P7) (pin 2))
+      (node (ref P7) (pin 1))
+      (node (ref P6) (pin 1))
+      (node (ref Y1) (pin 2))
+      (node (ref U2) (pin 10))
+      (node (ref CON1) (pin 6))
+      (node (ref C2) (pin 2))
+      (node (ref D1) (pin 2))
+      (node (ref C6) (pin 2))
+      (node (ref P1) (pin 1))
+      (node (ref D7) (pin 2))
+      (node (ref D6) (pin 2))
+      (node (ref P4) (pin 1))
+      (node (ref D4) (pin 2))
+      (node (ref P11) (pin 1))
+      (node (ref C4) (pin 2))
+      (node (ref P2) (pin 1))
+      (node (ref U5) (pin 4)))
+    (net (code 13) (name DOUT)
+      (node (ref U2) (pin 2))
+      (node (ref R5) (pin 2))
+      (node (ref Q1) (pin 2))
+      (node (ref D2) (pin 2)))
+    (net (code 14) (name "Net-(D2-Pad1)")
+      (node (ref R8) (pin 2))
+      (node (ref D2) (pin 1)))
+    (net (code 15) (name DIN)
+      (node (ref U2) (pin 3))
+      (node (ref Q2) (pin 2))
+      (node (ref R7) (pin 2))
+      (node (ref D3) (pin 2)))
+    (net (code 16) (name "Net-(D3-Pad1)")
+      (node (ref D3) (pin 1))
+      (node (ref R9) (pin 2)))
+    (net (code 17) (name RSSI)
+      (node (ref R11) (pin 1))
+      (node (ref U2) (pin 6)))
+    (net (code 18) (name "Net-(D4-Pad1)")
+      (node (ref D4) (pin 1))
+      (node (ref R11) (pin 2)))
+    (net (code 19) (name "Net-(D6-Pad1)")
+      (node (ref R17) (pin 2))
+      (node (ref D6) (pin 1)))
+    (net (code 20) (name MISO)
+      (node (ref IC1) (pin 15))
+      (node (ref CON1) (pin 1))
+      (node (ref P11) (pin 2)))
+    (net (code 21) (name SCLK)
+      (node (ref IC1) (pin 17))
+      (node (ref P11) (pin 3))
+      (node (ref R17) (pin 1))
+      (node (ref CON1) (pin 3)))
+    (net (code 22) (name MOSI)
+      (node (ref P11) (pin 4))
+      (node (ref IC1) (pin 16))
+      (node (ref CON1) (pin 4)))
+    (net (code 23) (name "Net-(D7-Pad1)")
+      (node (ref D7) (pin 1))
+      (node (ref R18) (pin 2)))
+    (net (code 24) (name PC0)
+      (node (ref IC1) (pin 23))
+      (node (ref P1) (pin 3)))
+    (net (code 25) (name "Net-(U5-Pad7)")
+      (node (ref U5) (pin 7)))
+    (net (code 26) (name "Net-(U5-Pad8)")
+      (node (ref U5) (pin 8)))
+    (net (code 27) (name "Net-(U5-Pad1)")
+      (node (ref U5) (pin 1)))
+    (net (code 28) (name "Net-(U5-Pad3)")
+      (node (ref U5) (pin 3)))
+    (net (code 29) (name "Net-(U3-Pad4)")
+      (node (ref U3) (pin 4)))
+    (net (code 30) (name +3.3V)
+      (node (ref R13) (pin 1))
+      (node (ref U3) (pin 5))
+      (node (ref R7) (pin 1))
+      (node (ref U2) (pin 1))
+      (node (ref R5) (pin 1))
+      (node (ref C4) (pin 1))
+      (node (ref Q1) (pin 1))
+      (node (ref R18) (pin 1))
+      (node (ref Q2) (pin 1))
+      (node (ref Q3) (pin 1))
+      (node (ref R9) (pin 1))
+      (node (ref R8) (pin 1)))
+    (net (code 31) (name AREF)
+      (node (ref J1) (pin 3))
+      (node (ref P10) (pin 2)))
+    (net (code 32) (name 4.096)
+      (node (ref U5) (pin 6))
+      (node (ref C6) (pin 1))
+      (node (ref J1) (pin 1)))
+    (net (code 33) (name RAW)
+      (node (ref U1) (pin VI))
+      (node (ref J2) (pin 5))
+      (node (ref C3) (pin 1))
+      (node (ref J2) (pin 4))
+      (node (ref P9) (pin 2)))
+    (net (code 34) (name AD7)
+      (node (ref IC1) (pin 22))
+      (node (ref P6) (pin 3)))
+    (net (code 35) (name PC1)
+      (node (ref IC1) (pin 24))
+      (node (ref P2) (pin 3)))
+    (net (code 36) (name PC2)
+      (node (ref IC1) (pin 25))
+      (node (ref P3) (pin 3)))
+    (net (code 37) (name PC3)
+      (node (ref P4) (pin 3))
+      (node (ref IC1) (pin 26)))
+    (net (code 38) (name SDA)
+      (node (ref P8) (pin 4))
+      (node (ref IC1) (pin 27)))
+    (net (code 39) (name SCL)
+      (node (ref P8) (pin 3))
+      (node (ref IC1) (pin 28)))
+    (net (code 40) (name reset)
+      (node (ref C1) (pin 1))
+      (node (ref CON1) (pin 5))
+      (node (ref R1) (pin 2))
+      (node (ref IC1) (pin 29)))
+    (net (code 41) (name AD6)
+      (node (ref IC1) (pin 19))
+      (node (ref P5) (pin 3)))
+    (net (code 42) (name PD6)
+      (node (ref IC1) (pin 10))
+      (node (ref R6) (pin 2))
+      (node (ref Q1) (pin 3)))
+    (net (code 43) (name PD7)
+      (node (ref Q2) (pin 3))
+      (node (ref IC1) (pin 11))
+      (node (ref R10) (pin 2)))
+    (net (code 44) (name PB0)
+      (node (ref IC1) (pin 12))
+      (node (ref R14) (pin 2))
+      (node (ref Q3) (pin 3)))
+    (net (code 45) (name "Net-(IC1-Pad8)")
+      (node (ref IC1) (pin 8))
+      (node (ref Y1) (pin 1)))
+    (net (code 46) (name "Net-(IC1-Pad7)")
+      (node (ref Y1) (pin 3))
+      (node (ref IC1) (pin 7)))
+    (net (code 47) (name DTR)
+      (node (ref P7) (pin 6))
+      (node (ref C1) (pin 2)))
+    (net (code 48) (name PD2)
+      (node (ref P1) (pin 4))
+      (node (ref IC1) (pin 32)))
+    (net (code 49) (name PD3)
+      (node (ref P2) (pin 4))
+      (node (ref IC1) (pin 1)))
+    (net (code 50) (name PD4)
+      (node (ref P3) (pin 4))
+      (node (ref IC1) (pin 2)))
+    (net (code 51) (name PD5)
+      (node (ref P4) (pin 4))
+      (node (ref IC1) (pin 9)))
+    (net (code 52) (name PB2)
+      (node (ref P6) (pin 4))
+      (node (ref IC1) (pin 14)))
+    (net (code 53) (name RXFTDI)
+      (node (ref SW1) (pin 1))
+      (node (ref P7) (pin 4)))
+    (net (code 54) (name TXFTDI)
+      (node (ref P7) (pin 5))
+      (node (ref SW1) (pin 4)))
+    (net (code 55) (name "Net-(IC1-Pad20)")
+      (node (ref J1) (pin 2))
+      (node (ref IC1) (pin 20)))
+    (net (code 56) (name RX485)
+      (node (ref SW1) (pin 3))
+      (node (ref U4) (pin 2)))
+    (net (code 57) (name TX485)
+      (node (ref U4) (pin 3))
+      (node (ref SW1) (pin 6)))
+    (net (code 58) (name TX)
+      (node (ref SW1) (pin 5))
+      (node (ref IC1) (pin 30)))
+    (net (code 59) (name PB1)
+      (node (ref P5) (pin 4))
+      (node (ref IC1) (pin 13)))
+    (net (code 60) (name RX)
+      (node (ref SW1) (pin 2))
+      (node (ref IC1) (pin 31)))
+    (net (code 61) (name x9)
+      (node (ref U2) (pin 9))
+      (node (ref R13) (pin 2))
+      (node (ref Q3) (pin 2)))
+    (net (code 62) (name "Net-(J2-Pad9)")
+      (node (ref J2) (pin 9)))
+    (net (code 63) (name "Net-(J2-Pad6)")
+      (node (ref U4) (pin 6))
+      (node (ref J2) (pin 6)))
+    (net (code 64) (name "Net-(J2-Pad1)")
+      (node (ref R12) (pin 1))
+      (node (ref J2) (pin 1))
+      (node (ref U4) (pin 8)))
+    (net (code 65) (name "Net-(U2-Pad8)")
+      (node (ref U2) (pin 8)))
+    (net (code 66) (name "Net-(U2-Pad7)")
+      (node (ref U2) (pin 7)))
+    (net (code 67) (name "Net-(U2-Pad5)")
+      (node (ref U2) (pin 5)))
+    (net (code 68) (name "Net-(U2-Pad4)")
+      (node (ref U2) (pin 4)))
+    (net (code 69) (name "Net-(J2-Pad2)")
+      (node (ref U4) (pin 7))
+      (node (ref R12) (pin 2))
+      (node (ref J2) (pin 2)))
+    (net (code 70) (name "Net-(J2-Pad3)")
+      (node (ref J2) (pin 3))
+      (node (ref U4) (pin 5)))
+    (net (code 71) (name +5V)
+      (node (ref R6) (pin 1))
+      (node (ref P7) (pin 3))
+      (node (ref CON1) (pin 2))
+      (node (ref P1) (pin 2))
+      (node (ref R14) (pin 1))
+      (node (ref R10) (pin 1))
+      (node (ref IC1) (pin 4))
+      (node (ref IC1) (pin 18))
+      (node (ref R1) (pin 1))
+      (node (ref D1) (pin 1))
+      (node (ref C2) (pin 1))
+      (node (ref P4) (pin 2))
+      (node (ref P5) (pin 2))
+      (node (ref U4) (pin 1))
+      (node (ref P3) (pin 2))
+      (node (ref P2) (pin 2))
+      (node (ref U1) (pin VO))
+      (node (ref IC1) (pin 6))
+      (node (ref P8) (pin 2))
+      (node (ref U3) (pin 1))
+      (node (ref U3) (pin 3))
+      (node (ref U5) (pin 2))
+      (node (ref P6) (pin 2)))))
