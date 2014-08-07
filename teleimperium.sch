@@ -606,7 +606,7 @@ Wire Wire Line
 	1700 6850 1700 6600
 Wire Wire Line
 	1800 6850 1800 6700
-Text GLabel 3400 6700 1    40   Input ~ 0
+Text GLabel 3300 6700 1    40   Input ~ 0
 PB1
 Wire Wire Line
 	1900 6850 1900 6700
@@ -680,11 +680,11 @@ Wire Wire Line
 	2900 6850 2900 6700
 Text GLabel 9900 6300 3    40   Input ~ 0
 PB0
-Text GLabel 2300 6700 1    40   Input ~ 0
+Text GLabel 2400 6700 1    40   Input ~ 0
 PC2
-Text GLabel 2800 6700 1    40   Input ~ 0
+Text GLabel 2900 6700 1    40   Input ~ 0
 PC3
-Text GLabel 3900 6700 1    40   Input ~ 0
+Text GLabel 3800 6700 1    40   Input ~ 0
 PB2
 Wire Wire Line
 	1400 6850 1400 6700
@@ -808,25 +808,25 @@ Wire Wire Line
 	3500 6750 3500 6650
 Wire Wire Line
 	3500 6650 3600 6650
-Text GLabel 2900 6700 1    40   Input ~ 0
+Text GLabel 2800 6700 1    40   Input ~ 0
 PD5
-Text GLabel 2400 6700 1    40   Input ~ 0
+Text GLabel 2300 6700 1    40   Input ~ 0
 PD4
-Text GLabel 1900 6700 1    40   Input ~ 0
+Text GLabel 1800 6700 1    40   Input ~ 0
 PD3
-Text GLabel 1400 6700 1    40   Input ~ 0
+Text GLabel 1300 6700 1    40   Input ~ 0
 PD2
 Wire Wire Line
 	1300 6850 1300 6700
-Text GLabel 3300 6700 1    40   Input ~ 0
+Text GLabel 3400 6700 1    40   Input ~ 0
 AD6
-Text GLabel 3800 6700 1    40   Input ~ 0
+Text GLabel 3900 6700 1    40   Input ~ 0
 AD7
 Text GLabel 7500 6300 3    40   Input ~ 0
 PD6
 Text GLabel 8750 6300 3    40   Input ~ 0
 PD7
-Text GLabel 1800 6700 1    40   Input ~ 0
+Text GLabel 1900 6700 1    40   Input ~ 0
 PC1
 $Comp
 L CONN_4 P8
@@ -893,7 +893,7 @@ L CP1 C3
 U 1 1 530EB8F2
 P 5150 1100
 F 0 "C3" H 5200 1200 50  0000 L CNN
-F 1 "100u" H 5200 1000 50  0000 L CNN
+F 1 "220u" H 5200 1000 50  0000 L CNN
 F 2 "visgence_parts:SM1210L_VIS" H 5150 1100 60  0000 C CNN
 F 3 "~" H 5150 1100 60  0000 C CNN
 	1    5150 1100
@@ -913,8 +913,6 @@ $EndComp
 Wire Wire Line
 	5150 1300 5150 1450
 Connection ~ 5150 900 
-Wire Wire Line
-	6250 900  6950 900 
 $Comp
 L GND #PWR031
 U 1 1 530EBC06
@@ -1348,7 +1346,7 @@ $Comp
 L R R18
 U 1 1 53141B53
 P 9000 1150
-F 0 "R18" V 8925 1150 40  0000 C CNN
+F 0 "R18" V 9080 1150 40  0000 C CNN
 F 1 "1k" V 9007 1151 40  0000 C CNN
 F 2 "visgence_parts:SM0603_VIS" V 8930 1150 30  0000 C CNN
 F 3 "~" H 9000 1150 30  0000 C CNN
@@ -1381,7 +1379,7 @@ Wire Wire Line
 	9000 1900 9000 2000
 Wire Wire Line
 	9000 1400 9000 1500
-Text GLabel 1300 6700 1    40   Input ~ 0
+Text GLabel 1400 6700 1    40   Input ~ 0
 PC0
 $Comp
 L MOS_N_VIS Q1
@@ -1517,12 +1515,12 @@ $EndComp
 $Comp
 L GND #PWR048
 U 1 1 53DC66D5
-P 1600 1750
-F 0 "#PWR048" H 1600 1750 30  0001 C CNN
-F 1 "GND" H 1600 1680 30  0001 C CNN
-F 2 "" H 1600 1750 60  0001 C CNN
-F 3 "" H 1600 1750 60  0001 C CNN
-	1    1600 1750
+P 900 3100
+F 0 "#PWR048" H 900 3100 30  0001 C CNN
+F 1 "GND" H 900 3030 30  0001 C CNN
+F 2 "" H 900 3100 60  0001 C CNN
+F 3 "" H 900 3100 60  0001 C CNN
+	1    900  3100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1730,7 +1728,7 @@ L CP1 C2
 U 1 1 53DC9308
 P 6450 1100
 F 0 "C2" H 6500 1200 50  0000 L CNN
-F 1 "100u" H 6500 1000 50  0000 L CNN
+F 1 "220u" H 6500 1000 50  0000 L CNN
 F 2 "visgence_parts:SM1210L_VIS" H 6450 1100 60  0000 C CNN
 F 3 "~" H 6450 1100 60  0000 C CNN
 	1    6450 1100
@@ -1739,12 +1737,12 @@ $EndComp
 $Comp
 L LED D1
 U 1 1 53DC9313
-P 6950 1100
-F 0 "D1" H 6950 1200 50  0000 C CNN
-F 1 "Power" H 6950 1000 50  0000 C CNN
-F 2 "LEDs:LED-0603" H 6950 1100 60  0000 C CNN
-F 3 "~" H 6950 1100 60  0000 C CNN
-	1    6950 1100
+P 900 2800
+F 0 "D1" H 900 2900 50  0000 C CNN
+F 1 "Power" H 900 2700 50  0000 C CNN
+F 2 "LEDs:LED-0603" H 900 2800 60  0001 C CNN
+F 3 "~" H 900 2800 60  0000 C CNN
+	1    900  2800
 	0    1    1    0   
 $EndComp
 Connection ~ 6450 900 
@@ -1759,19 +1757,6 @@ F 3 "" H 6450 1450 60  0000 C CNN
 	1    6450 1450
 	1    0    0    -1  
 $EndComp
-$Comp
-L GND #PWR054
-U 1 1 53DC95FF
-P 6950 1400
-F 0 "#PWR054" H 6950 1400 30  0001 C CNN
-F 1 "GND" H 6950 1330 30  0001 C CNN
-F 2 "" H 6950 1400 60  0000 C CNN
-F 3 "" H 6950 1400 60  0000 C CNN
-	1    6950 1400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6950 1300 6950 1400
 Text GLabel 5050 3750 2    47   Input ~ 0
 reset
 $Comp
@@ -1800,10 +1785,10 @@ Wire Wire Line
 	3050 1550 3350 1550
 Connection ~ 3200 1550
 $Comp
-L +5V #PWR055
+L +5V #PWR054
 U 1 1 53DC9B0D
 P 3200 950
-F 0 "#PWR055" H 3200 1040 20  0001 C CNN
+F 0 "#PWR054" H 3200 1040 20  0001 C CNN
 F 1 "+5V" H 3200 1040 30  0000 C CNN
 F 2 "" H 3200 950 60  0000 C CNN
 F 3 "" H 3200 950 60  0000 C CNN
@@ -1842,4 +1827,34 @@ Wire Wire Line
 	5050 4300 4950 4300
 Wire Wire Line
 	5050 4400 4950 4400
+$Comp
+L R R2
+U 1 1 53E33CB1
+P 900 2200
+F 0 "R2" V 825 2200 40  0000 C CNN
+F 1 "1k" V 907 2201 40  0000 C CNN
+F 2 "visgence_parts:SM0603_VIS" V 830 2200 30  0000 C CNN
+F 3 "~" H 900 2200 30  0000 C CNN
+	1    900  2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 900  6250 900 
+$Comp
+L +5V #PWR055
+U 1 1 53E3441B
+P 900 1850
+F 0 "#PWR055" H 900 1940 20  0001 C CNN
+F 1 "+5V" H 900 1940 30  0000 C CNN
+F 2 "" H 900 1850 60  0000 C CNN
+F 3 "" H 900 1850 60  0000 C CNN
+	1    900  1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  1850 900  1950
+Wire Wire Line
+	900  2450 900  2600
+Wire Wire Line
+	900  3000 900  3100
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-08-01 BZR 5042)-product   date = 8/2/2014 10:22:14 PM
+Cmp-Mod V01 Created by Cvpcb (2014-08-01 BZR 5042)-product   date = 8/6/2014 10:29:37 PM
 
 BeginCmp
 TimeStamp = /53DC9902;
@@ -10,15 +10,15 @@ EndCmp
 BeginCmp
 TimeStamp = /53DC9308;
 Reference = C2;
-ValeurCmp = 100u;
-IdModule  = visgence_parts:SM1210L_VIS;
+ValeurCmp = 220u;
+IdModule  = Capacitors_SMD:c_elec_6.3x7.7;
 EndCmp
 
 BeginCmp
 TimeStamp = /530EB8F2;
 Reference = C3;
-ValeurCmp = 100u;
-IdModule  = visgence_parts:SM1210L_VIS;
+ValeurCmp = 220u;
+IdModule  = Capacitors_SMD:c_elec_6.3x7.7;
 EndCmp
 
 BeginCmp
@@ -305,7 +305,7 @@ BeginCmp
 TimeStamp = /53DC66E3;
 Reference = SW1;
 ValeurCmp = JS202011SCQN;
-IdModule  = ;
+IdModule  = visgence_parts:JS202011SCQN;
 EndCmp
 
 BeginCmp
