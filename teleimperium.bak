@@ -606,7 +606,7 @@ Wire Wire Line
 	1700 6850 1700 6600
 Wire Wire Line
 	1800 6850 1800 6700
-Text GLabel 3400 6700 1    40   Input ~ 0
+Text GLabel 3300 6700 1    40   Input ~ 0
 PB1
 Wire Wire Line
 	1900 6850 1900 6700
@@ -680,11 +680,11 @@ Wire Wire Line
 	2900 6850 2900 6700
 Text GLabel 9900 6300 3    40   Input ~ 0
 PB0
-Text GLabel 2300 6700 1    40   Input ~ 0
+Text GLabel 2400 6700 1    40   Input ~ 0
 PC2
-Text GLabel 2800 6700 1    40   Input ~ 0
+Text GLabel 2900 6700 1    40   Input ~ 0
 PC3
-Text GLabel 3900 6700 1    40   Input ~ 0
+Text GLabel 3800 6700 1    40   Input ~ 0
 PB2
 Wire Wire Line
 	1400 6850 1400 6700
@@ -808,25 +808,25 @@ Wire Wire Line
 	3500 6750 3500 6650
 Wire Wire Line
 	3500 6650 3600 6650
-Text GLabel 2900 6700 1    40   Input ~ 0
+Text GLabel 2800 6700 1    40   Input ~ 0
 PD5
-Text GLabel 2400 6700 1    40   Input ~ 0
+Text GLabel 2300 6700 1    40   Input ~ 0
 PD4
-Text GLabel 1900 6700 1    40   Input ~ 0
+Text GLabel 1800 6700 1    40   Input ~ 0
 PD3
-Text GLabel 1400 6700 1    40   Input ~ 0
+Text GLabel 1300 6700 1    40   Input ~ 0
 PD2
 Wire Wire Line
 	1300 6850 1300 6700
-Text GLabel 3300 6700 1    40   Input ~ 0
+Text GLabel 3400 6700 1    40   Input ~ 0
 AD6
-Text GLabel 3800 6700 1    40   Input ~ 0
+Text GLabel 3900 6700 1    40   Input ~ 0
 AD7
 Text GLabel 7500 6300 3    40   Input ~ 0
 PD6
 Text GLabel 8750 6300 3    40   Input ~ 0
 PD7
-Text GLabel 1800 6700 1    40   Input ~ 0
+Text GLabel 1900 6700 1    40   Input ~ 0
 PC1
 $Comp
 L CONN_4 P8
@@ -1379,7 +1379,7 @@ Wire Wire Line
 	9000 1900 9000 2000
 Wire Wire Line
 	9000 1400 9000 1500
-Text GLabel 1300 6700 1    40   Input ~ 0
+Text GLabel 1400 6700 1    40   Input ~ 0
 PC0
 $Comp
 L MOS_N_VIS Q1
