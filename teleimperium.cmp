@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-08-01 BZR 5042)-product   date = 8/6/2014 10:29:37 PM
+Cmp-Mod V01 Created by Cvpcb (2014-08-02 BZR 5044)-product   date = 9/2/2014 10:19:20 PM
 
 BeginCmp
 TimeStamp = /53DC9902;
@@ -218,6 +218,13 @@ IdModule  = visgence_parts:SM0603_VIS;
 EndCmp
 
 BeginCmp
+TimeStamp = /53E33CB1;
+Reference = R2;
+ValeurCmp = 1k;
+IdModule  = visgence_parts:SM0603_VIS;
+EndCmp
+
+BeginCmp
 TimeStamp = /52FC4D73;
 Reference = R5;
 ValeurCmp = 1k;
@@ -306,6 +313,13 @@ TimeStamp = /53DC66E3;
 Reference = SW1;
 ValeurCmp = JS202011SCQN;
 IdModule  = visgence_parts:JS202011SCQN;
+EndCmp
+
+BeginCmp
+TimeStamp = /5406DBAF;
+Reference = SW2;
+ValeurCmp = SW_PUSH;
+IdModule  = visgence_parts:TACTILE_SWITCH_SMD;
 EndCmp
 
 BeginCmp
