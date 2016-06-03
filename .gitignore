@@ -1,0 +1,49 @@
+ld files
+#######################
+#Ki work directories
+Blender/
+Fusion/
+KiExport/
+
+## LaTeX
+*.aux
+*.dvi
+*.lof
+*.ps
+*.toc
+
+
+# Compiled Source #
+###################
+*.pyc
+*.out
+*.class
+
+# Logs and Databases #
+######################
+*.db
+*.log
+
+# Editor backup files #
+#######################
+
+.*.swp
+.*.swo
+*~
+hardcopy.*
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+screenlog.*
+.project
+.pydevproject
+.sparkleshare
+SparkleShare.txt
