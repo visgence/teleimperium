@@ -3,7 +3,7 @@
   (general
     (links 140)
     (no_connects 0)
-    (area 25.299999 25.299999 114.400001 89.000001)
+    (area 22.86 22.86 119.380001 93.980001)
     (thickness 1.6)
     (drawings 57)
     (tracks 738)
@@ -272,7 +272,7 @@
       (net 20 reset))
     (pad 2 smd rect (at 0.762 0 180) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
       (net 22 DTR))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/C_0603.wrl
+    (model ${KIPRJMOD}/KiModels/C_0603.wrl
       (at (xyz 0 0 0.001))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -301,7 +301,7 @@
       (net 1 +3.3V))
     (pad 2 smd rect (at 1.778 0 270) (size 1.778 2.794) (layers F.Cu F.Paste F.Mask)
       (net 7 GND))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/C_1206.wrl
+    (model ${KIPRJMOD}/KiModels/C_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -328,7 +328,7 @@
       (net 23 "Net-(C5-Pad1)"))
     (pad 2 smd rect (at 0.762 0 270) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
       (net 7 GND))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/C_0603.wrl
+    (model ${KIPRJMOD}/KiModels/C_0603.wrl
       (at (xyz 0 0 0.001))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -355,7 +355,7 @@
       (net 3 4.096))
     (pad 2 smd rect (at 0.762 0 180) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
       (net 7 GND))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/C_0603.wrl
+    (model ${KIPRJMOD}/KiModels/C_0603.wrl
       (at (xyz 0 0 0.001))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -401,7 +401,7 @@
       (net 7 GND))
     (pad "" thru_hole circle (at -7.85 3.05 270) (size 2.54 2.54) (drill 1.6) (layers *.Cu *.Mask F.SilkS)
       (net 7 GND))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/Ethernet.wrl
+    (model ${KIPRJMOD}/KiModels/Ethernet.wrl
       (at (xyz 0 0.08 0.185))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -426,7 +426,7 @@
       (net 2 +5V))
     (pad 2 smd rect (at 0.762 0) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
       (net 20 reset))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/R_0603.wrl
+    (model ${KIPRJMOD}/KiModels/R_0603.wrl
       (at (xyz 0 0 0.001))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -451,7 +451,7 @@
       (net 1 +3.3V))
     (pad 2 smd rect (at 0.762 0) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
       (net 6 DOUT))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/R_0603.wrl
+    (model ${KIPRJMOD}/KiModels/R_0603.wrl
       (at (xyz 0 0 0.001))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -476,7 +476,7 @@
       (net 2 +5V))
     (pad 2 smd rect (at 0.762 0) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
       (net 11 PD6))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/R_0603.wrl
+    (model ${KIPRJMOD}/KiModels/R_0603.wrl
       (at (xyz 0 0 0.001))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -501,7 +501,7 @@
       (net 1 +3.3V))
     (pad 2 smd rect (at 0.762 0) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
       (net 5 DIN))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/R_0603.wrl
+    (model ${KIPRJMOD}/KiModels/R_0603.wrl
       (at (xyz 0 0 0.001))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -526,7 +526,7 @@
       (net 1 +3.3V))
     (pad 2 smd rect (at 0.762 0 90) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
       (net 24 "Net-(D2-Pad1)"))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/R_0603.wrl
+    (model ${KIPRJMOD}/KiModels/R_0603.wrl
       (at (xyz 0 0 0.001))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -551,7 +551,7 @@
       (net 1 +3.3V))
     (pad 2 smd rect (at 0.762 0 90) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
       (net 25 "Net-(D3-Pad1)"))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/R_0603.wrl
+    (model ${KIPRJMOD}/KiModels/R_0603.wrl
       (at (xyz 0 0 0.001))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -576,7 +576,7 @@
       (net 2 +5V))
     (pad 2 smd rect (at 0.762 0) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
       (net 12 PD7))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/R_0603.wrl
+    (model ${KIPRJMOD}/KiModels/R_0603.wrl
       (at (xyz 0 0 0.001))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -601,7 +601,7 @@
       (net 14 RSSI))
     (pad 2 smd rect (at 0.762 0 90) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
       (net 26 "Net-(D4-Pad1)"))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/R_0603.wrl
+    (model ${KIPRJMOD}/KiModels/R_0603.wrl
       (at (xyz 0 0 0.001))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -626,7 +626,7 @@
       (net 44 "Net-(J2-Pad1)"))
     (pad 2 smd rect (at 0.762 0) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
       (net 45 "Net-(J2-Pad2)"))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/R_0603.wrl
+    (model ${KIPRJMOD}/KiModels/R_0603.wrl
       (at (xyz 0 0 0.001))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -651,7 +651,7 @@
       (net 1 +3.3V))
     (pad 2 smd rect (at 0.762 0) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
       (net 21 x9))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/R_0603.wrl
+    (model ${KIPRJMOD}/KiModels/R_0603.wrl
       (at (xyz 0 0 0.001))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -676,7 +676,7 @@
       (net 2 +5V))
     (pad 2 smd rect (at 0.762 0) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
       (net 41 PB0))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/R_0603.wrl
+    (model ${KIPRJMOD}/KiModels/R_0603.wrl
       (at (xyz 0 0 0.001))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -701,7 +701,7 @@
       (net 17 SCLK))
     (pad 2 smd rect (at 0.762 0) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
       (net 27 "Net-(D6-Pad1)"))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/R_0603.wrl
+    (model ${KIPRJMOD}/KiModels/R_0603.wrl
       (at (xyz 0 0 0.001))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -726,7 +726,7 @@
       (net 1 +3.3V))
     (pad 2 smd rect (at 0.762 0 90) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
       (net 28 "Net-(D7-Pad1)"))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/R_0603.wrl
+    (model ${KIPRJMOD}/KiModels/R_0603.wrl
       (at (xyz 0 0 0.001))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -812,12 +812,12 @@
       (net 62 "Net-(U2-Pad19)"))
     (pad 20 smd rect (at 9.4996 -19.99996 270) (size 2.032 0.84836) (layers F.Cu F.Paste F.Mask)
       (net 63 "Net-(U2-Pad20)"))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/Socket_Strip_Straight_1x10.wrl
+    (model ${KIPRJMOD}/KiModels/Socket_Strip_Straight_1x10.wrl
       (at (xyz 0.43 0.43 0))
       (scale (xyz 0.8 0.8 0.8))
       (rotate (xyz 0 0 90))
     )
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/Socket_Strip_Straight_1x10.wrl
+    (model ${KIPRJMOD}/KiModels/Socket_Strip_Straight_1x10.wrl
       (at (xyz -0.43 0.43 0))
       (scale (xyz 0.8 0.8 0.8))
       (rotate (xyz 0 0 90))
@@ -842,7 +842,7 @@
       (net 7 GND))
     (pad 3 smd rect (at 0.9906 0 180) (size 0.6985 1.69926) (layers F.Cu F.Paste F.Mask)
       (net 30 "Net-(IC1-Pad7)"))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/crystal_hc-49s.wrl
+    (model ${KIPRJMOD}/KiModels/crystal_hc-49s.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.3 0.3 0.3))
       (rotate (xyz 0 0 0))
@@ -880,7 +880,7 @@
       (net 20 reset))
     (pad 6 thru_hole oval (at 2.54 -1.27) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 7 GND))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/Pin_Header_Straight_2x03.wrl
+    (model ${KIPRJMOD}/KiModels/Pin_Header_Straight_2x03.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -925,7 +925,7 @@
       (net 71 "Net-(D1-Pad1)"))
     (pad 2 smd rect (at 0.7493 0 90) (size 0.79756 0.79756) (layers F.Cu F.Paste F.Mask)
       (net 7 GND))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/LED-0805.wrl
+    (model ${KIPRJMOD}/KiModels/LED-0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.6 0.6 0.6))
       (rotate (xyz 0 0 0))
@@ -970,7 +970,7 @@
       (net 24 "Net-(D2-Pad1)"))
     (pad 2 smd rect (at 0.7493 0 90) (size 0.79756 0.79756) (layers F.Cu F.Paste F.Mask)
       (net 6 DOUT))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/LED-0805.wrl
+    (model ${KIPRJMOD}/KiModels/LED-0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.6 0.6 0.6))
       (rotate (xyz 0 0 0))
@@ -1015,7 +1015,7 @@
       (net 25 "Net-(D3-Pad1)"))
     (pad 2 smd rect (at 0.7493 0 90) (size 0.79756 0.79756) (layers F.Cu F.Paste F.Mask)
       (net 5 DIN))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/LED-0805.wrl
+    (model ${KIPRJMOD}/KiModels/LED-0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.6 0.6 0.6))
       (rotate (xyz 0 0 0))
@@ -1060,7 +1060,7 @@
       (net 26 "Net-(D4-Pad1)"))
     (pad 2 smd rect (at 0.7493 0 90) (size 0.79756 0.79756) (layers F.Cu F.Paste F.Mask)
       (net 7 GND))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/LED-0805.wrl
+    (model ${KIPRJMOD}/KiModels/LED-0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.6 0.6 0.6))
       (rotate (xyz 0 0 0))
@@ -1105,7 +1105,7 @@
       (net 27 "Net-(D6-Pad1)"))
     (pad 2 smd rect (at 0.7493 0) (size 0.79756 0.79756) (layers F.Cu F.Paste F.Mask)
       (net 7 GND))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/LED-0805.wrl
+    (model ${KIPRJMOD}/KiModels/LED-0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.6 0.6 0.6))
       (rotate (xyz 0 0 0))
@@ -1150,7 +1150,7 @@
       (net 28 "Net-(D7-Pad1)"))
     (pad 2 smd rect (at 0.7493 0 90) (size 0.79756 0.79756) (layers F.Cu F.Paste F.Mask)
       (net 7 GND))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/LED-0805.wrl
+    (model ${KIPRJMOD}/KiModels/LED-0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.6 0.6 0.6))
       (rotate (xyz 0 0 0))
@@ -1248,7 +1248,7 @@
       (net 9 MOSI))
     (pad 16 smd rect (at 2.794 4.7752) (size 0.44958 1.99898) (layers F.Cu F.Paste F.Mask)
       (net 8 MISO))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/TQFP-32.wrl
+    (model ${KIPRJMOD}/KiModels/TQFP-32.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1279,7 +1279,7 @@
       (net 34 "Net-(IC1-Pad20)"))
     (pad 3 thru_hole oval (at 2.54 0 90) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 4 AREF))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/Pin_Header_Straight_1x03.wrl
+    (model ${KIPRJMOD}/KiModels/Pin_Header_Straight_1x03.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1316,7 +1316,7 @@
       (net 49 TXFTDI))
     (pad 6 thru_hole oval (at 6.35 0 90) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 22 DTR))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/Pin_Header_Angled_1x06.wrl
+    (model ${KIPRJMOD}/KiModels/Pin_Header_Angled_1x06.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1344,7 +1344,7 @@
       (net 6 DOUT))
     (pad 1 smd rect (at -0.9525 1.09982) (size 0.8001 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 1 +3.3V))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/SOT-23.wrl
+    (model ${KIPRJMOD}/KiModels/SOT-23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1372,7 +1372,7 @@
       (net 5 DIN))
     (pad 1 smd rect (at -0.9525 1.09982) (size 0.8001 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 1 +3.3V))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/SOT-23.wrl
+    (model ${KIPRJMOD}/KiModels/SOT-23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1400,7 +1400,7 @@
       (net 21 x9))
     (pad 1 smd rect (at -0.9525 1.09982) (size 0.8001 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 1 +3.3V))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/SOT-23.wrl
+    (model ${KIPRJMOD}/KiModels/SOT-23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1431,7 +1431,7 @@
       (net 7 GND))
     (pad VO thru_hole circle (at 0 2.54 180) (size 1.778 1.778) (drill 1.143) (layers *.Cu *.Mask F.SilkS)
       (net 2 +5V))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/TO-220_FET-GDS_Vertical_MountedFromLS.wrl
+    (model ${KIPRJMOD}/KiModels/TO-220_FET-GDS_Vertical_MountedFromLS.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 180 90))
@@ -1462,7 +1462,7 @@
       (net 7 GND))
     (pad 4 smd rect (at 0.9525 -1.27) (size 0.508 0.762) (layers F.Cu F.Paste F.Mask)
       (net 64 "Net-(U3-Pad4)"))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/SOT-23-5.wrl
+    (model ${KIPRJMOD}/KiModels/SOT-23-5.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
@@ -1505,7 +1505,7 @@
       (net 66 TX485))
     (pad 4 smd rect (at 1.905 2.667) (size 0.59944 1.39954) (layers F.Cu F.Paste F.Mask)
       (net 7 GND))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/DIP-8_SMD.wrl
+    (model ${KIPRJMOD}/KiModels/DIP-8_SMD.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.5 0.3 0.4))
       (rotate (xyz 0 0 0))
@@ -1548,7 +1548,7 @@
       (net 70 "Net-(U5-Pad3)"))
     (pad 4 smd rect (at 1.905 2.667) (size 0.59944 1.39954) (layers F.Cu F.Paste F.Mask)
       (net 7 GND))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/DIP-8_SMD.wrl
+    (model ${KIPRJMOD}/KiModels/DIP-8_SMD.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.5 0.3 0.4))
       (rotate (xyz 0 0 0))
@@ -1577,7 +1577,7 @@
       (net 7 GND))
     (pad 4 thru_hole circle (at 5.25 0) (size 2.032 2.032) (drill 1.2) (layers *.Cu *.Mask)
       (net 36 PC0))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/OSTTCXX2162.wrl
+    (model ${KIPRJMOD}/KiModels/OSTTCXX2162.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.68 0.68 0.68))
       (rotate (xyz 0 0 0))
@@ -1606,7 +1606,7 @@
       (net 7 GND))
     (pad 4 thru_hole circle (at 5.25 0) (size 2.032 2.032) (drill 1.2) (layers *.Cu *.Mask)
       (net 32 PC1))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/OSTTCXX2162.wrl
+    (model ${KIPRJMOD}/KiModels/OSTTCXX2162.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.68 0.68 0.68))
       (rotate (xyz 0 0 0))
@@ -1635,7 +1635,7 @@
       (net 7 GND))
     (pad 4 thru_hole circle (at 5.25 0) (size 2.032 2.032) (drill 1.2) (layers *.Cu *.Mask)
       (net 39 PC2))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/OSTTCXX2162.wrl
+    (model ${KIPRJMOD}/KiModels/OSTTCXX2162.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.68 0.68 0.68))
       (rotate (xyz 0 0 0))
@@ -1664,7 +1664,7 @@
       (net 7 GND))
     (pad 4 thru_hole circle (at 5.25 0) (size 2.032 2.032) (drill 1.2) (layers *.Cu *.Mask)
       (net 38 PC3))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/OSTTCXX2162.wrl
+    (model ${KIPRJMOD}/KiModels/OSTTCXX2162.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.68 0.68 0.68))
       (rotate (xyz 0 0 0))
@@ -1693,7 +1693,7 @@
       (net 7 GND))
     (pad 4 thru_hole circle (at 5.25 0 180) (size 2.032 2.032) (drill 1.2) (layers *.Cu *.Mask)
       (net 33 AD6))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/OSTTCXX2162.wrl
+    (model ${KIPRJMOD}/KiModels/OSTTCXX2162.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.68 0.68 0.68))
       (rotate (xyz 0 0 0))
@@ -1722,7 +1722,7 @@
       (net 7 GND))
     (pad 4 thru_hole circle (at 5.25 0 180) (size 2.032 2.032) (drill 1.2) (layers *.Cu *.Mask)
       (net 35 AD7))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/OSTTCXX2162.wrl
+    (model ${KIPRJMOD}/KiModels/OSTTCXX2162.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.68 0.68 0.68))
       (rotate (xyz 0 0 0))
@@ -1751,7 +1751,7 @@
       (net 7 GND))
     (pad 4 thru_hole circle (at 5.25 0 180) (size 2.032 2.032) (drill 1.2) (layers *.Cu *.Mask)
       (net 18 SDA))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/OSTTCXX2162.wrl
+    (model ${KIPRJMOD}/KiModels/OSTTCXX2162.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.68 0.68 0.68))
       (rotate (xyz 0 0 0))
@@ -1776,7 +1776,7 @@
       (net 7 GND))
     (pad 2 thru_hole circle (at 1.75006 0) (size 2.032 2.032) (drill 1.2) (layers *.Cu *.Mask)
       (net 13 RAW))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/OSTTCO22162_2.wrl
+    (model ${KIPRJMOD}/KiModels/OSTTCO22162_2.wrl
       (at (xyz 0 0 0.17))
       (scale (xyz 0.68 0.68 0.68))
       (rotate (xyz 0 0 0))
@@ -1801,7 +1801,7 @@
       (net 7 GND))
     (pad 2 thru_hole circle (at 1.75006 0 180) (size 2.032 2.032) (drill 1.2) (layers *.Cu *.Mask)
       (net 4 AREF))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/OSTTCO22162_2.wrl
+    (model ${KIPRJMOD}/KiModels/OSTTCO22162_2.wrl
       (at (xyz 0 0 0.17))
       (scale (xyz 0.68 0.68 0.68))
       (rotate (xyz 0 0 0))
@@ -1830,7 +1830,7 @@
       (net 7 GND))
     (pad 4 thru_hole circle (at 5.25 0 180) (size 2.032 2.032) (drill 1.2) (layers *.Cu *.Mask)
       (net 9 MOSI))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/OSTTCXX2162.wrl
+    (model ${KIPRJMOD}/KiModels/OSTTCXX2162.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.68 0.68 0.68))
       (rotate (xyz 0 0 0))
@@ -1871,7 +1871,7 @@
       (net 15 RX))
     (pad 3 smd rect (at 2.5 2.75) (size 1.2 2.5) (layers F.Cu F.Paste F.Mask)
       (net 65 RX485))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/Switch.wrl
+    (model ${KIPRJMOD}/KiModels/Switch.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.4 0.3 0.4))
       (rotate (xyz 0 0 0))
@@ -1906,7 +1906,7 @@
       (net 2 +5V))
     (pad 2 smd rect (at -2.75082 0 180) (size 3.59918 1.6002) (layers F.Cu F.Paste F.Mask)
       (net 7 GND))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/c_elec_6.3x7.7.wrl
+    (model ${KIPRJMOD}/KiModels/c_elec_6.3x7.7.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1941,7 +1941,7 @@
       (net 13 RAW))
     (pad 2 smd rect (at -2.75082 0 180) (size 3.59918 1.6002) (layers F.Cu F.Paste F.Mask)
       (net 7 GND))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/c_elec_6.3x7.7.wrl
+    (model ${KIPRJMOD}/KiModels/c_elec_6.3x7.7.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1966,7 +1966,7 @@
       (net 2 +5V))
     (pad 2 smd rect (at 0.762 0 90) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
       (net 71 "Net-(D1-Pad1)"))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/R_0603.wrl
+    (model ${KIPRJMOD}/KiModels/R_0603.wrl
       (at (xyz 0 0 0.001))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2316,7 +2316,7 @@
       (net 7 GND))
     (pad 2 smd rect (at 2.286 4.318) (size 1.524 2.032) (layers F.Cu F.Paste F.Mask)
       (net 20 reset))
-    (model ../../../../../../Users/cyrille/git/teleimperium/KiModels/pcb_push.wrl
+    (model ${KIPRJMOD}/KiModels/pcb_push.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
